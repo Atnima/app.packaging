@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+    <Product Id="*" UpgradeCode="6b279a8b-bb78-4c1c-95b9-4aabf3f6aaba" Version="1.0.0" Language="1033" Name="Cbord Customisations" Manufacturer="SVHA">
+        <Package InstallerVersion="300" Compressed="yes" Platform="x64"/>
+        <Media Id="1" Cabinet="product.cab" EmbedCab="yes" />
+
+        <Property Id="ALLUSERS"><![CDATA[2]]></Property>
+
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="WindowsVolume">
+                <Directory Id="dir_cbordwinsql" Name="cbordwinsql">
+                    <Directory Id="dir_work" Name="work">
+                        <Directory Id="dir_shh" Name="shh" />
+                        <Directory Id="dir_sjh" Name="sjh" />
+                        <Directory Id="dir_svh" Name="svh" />
+                        <Directory Id="dir_svpchg" Name="svpchg" />
+                        <Directory Id="dir_svph" Name="svph" />
+                        <Directory Id="dir_tmh" Name="tmh" />
+                    </Directory>
+                </Directory>
+            </Directory>
+            <Directory Id="ProgramMenuFolder" />
+            <Directory Id="DesktopFolder" Name="Desktop" />
+        </Directory>
+
+        <DirectoryRef Id="ProgramMenuFolder">
+            <Component Id="cmp_shhshortcut" Guid="3786c0fa-232e-4047-9cf7-3b9fc4138810">
+                <Shortcut Id="sc_shhshortcut" 
+                    Name="CBORD 11 - SHH" 
+                    Description="CBORD 11 - SHH"
+                    Target="[#filAAE7B842A9F3D5C7655A77D587F64D36]"
+                    WorkingDirectory="dir_shh"/>
+           </Component>
+           <Component Id="cmp_sjhshortcut" Guid="3621dfb2-48c8-462e-a7a8-2775d8520cea">
+                <Shortcut Id="sc_sjhshortcut" 
+                    Name="CBORD 11 - SJH" 
+                    Description="CBORD 11 - SJH"
+                    Target="[#filE2CCA3E37E2D5DD715F73F2E7A44901A]"
+                    WorkingDirectory="dir_sjh"/>
+           </Component>
+           <Component Id="cmp_svhshortcut" Guid="b5ae78d0-768b-458e-85c6-c533558d3ce8">
+                <Shortcut Id="sc_svhshortcut" 
+                    Name="CBORD 11 - SVH" 
+                    Description="CBORD 11 - SVH"
+                    Target="[#fil07E0312682480DE1AB99DF7667CF7A7A]"
+                    WorkingDirectory="dir_svh"/>
+           </Component>
+           <Component Id="cmp_svpchgshortcut" Guid="4e7b6f4d-0806-481d-ac6c-fed261395265">
+                <Shortcut Id="sc_svpchgshortcut" 
+                    Name="CBORD 11 - SVPCHG" 
+                    Description="CBORD 11 - SVPCHG"
+                    Target="[#filB2DC7BC4303F6AC999556406376BB792]"
+                    WorkingDirectory="dir_svpchg"/>
+           </Component>
+           <Component Id="cmp_svphshortcut" Guid="a3a04a38-d3c3-4356-9e13-1299d3a8af3c">
+                <Shortcut Id="sc_svphshortcut" 
+                    Name="CBORD 11 - SVPH" 
+                    Description="CBORD 11 - SVPH"
+                    Target="[#filD18937265D34BF37396D8C8E86C1EA01]"
+                    WorkingDirectory="dir_svph"/>
+           </Component>
+           <Component Id="cmp_tmhshortcut" Guid="d055f527-b0f7-40da-ae05-e59ee20bbcad">
+                <Shortcut Id="sc_tmhshortcut" 
+                    Name="CBORD 11 - TMH" 
+                    Description="CBORD 11 - TMH"
+                    Target="[#fil348A104CC7803AF1E44ED5CBFEBE211F]"
+                    WorkingDirectory="dir_onlinesystems"/>
+           </Component>
+        </DirectoryRef>
+
+        <Component Id="cmp_RegistryEntries" Directory="TARGETDIR" Guid="4E1AFE33-BDAB-4F21-B4D6-A03710268327" KeyPath="yes">
+            <RegistryKey Root="HKLM" Key="SOFTWARE\ODBC\ODBC.INI">
+                <RegistryKey Key="ODBC Data Sources">
+                    <RegistryValue Name="SVPH_CBORD_PRD" Value="SQL Server" Type="string" />
+                    <RegistryValue Name="TMH_CBORD_PRD" Value="SQL Server" Type="string" />
+                    <RegistryValue Name="SVH_CBORD_PRD" Value="SQL Server" Type="string" />
+                    <RegistryValue Name="SJH_CBORD_PRD" Value="SQL Server" Type="string" />
+                    <RegistryValue Name="SHH_CBORD_PRD" Value="SQL Server" Type="string" />
+                </RegistryKey>
+
+                <RegistryKey Key="SVPH_CBORD_PRD">
+                    <RegistryValue Name="Driver" Value="C:\windows\system32\SQLSRV32.dll" Type="string" />
+                    <RegistryValue Name="Description" Value="SVPH_CBORD_PRD" Type="string" />
+                    <RegistryValue Name="Server" Value="cbord01.stvincents.com.au" Type="string" />
+                    <RegistryValue Name="Database" Value="svph_cbord_prd" Type="string" />
+                    <RegistryValue Name="LastUser" Value="" Type="string" />
+                    <RegistryValue Name="Trusted_Connection" Value="Yes" Type="string" />
+                </RegistryKey>
+
+                <RegistryKey Key="TMH_CBORD_PRD">
+                    <RegistryValue Name="Driver" Value="C:\windows\system32\SQLSRV32.dll" Type="string" />
+                    <RegistryValue Name="Description" Value="TMH_CBORD_PRD" Type="string" />
+                    <RegistryValue Name="Server" Value="cbord01.stvincents.com.au\tmh" Type="string" />
+                    <RegistryValue Name="Database" Value="tmh_cbord_prd" Type="string" />
+                    <RegistryValue Name="LastUser" Value="" Type="string" />
+                    <RegistryValue Name="Trusted_Connection" Value="Yes" Type="string" />
+                </RegistryKey>
+
+                <RegistryKey Key="SVH_CBORD_PRD">
+                    <RegistryValue Name="Driver" Value="C:\windows\system32\SQLSRV32.dll" Type="string" />
+                    <RegistryValue Name="Description" Value="SVH_CBORD_PRD" Type="string" />
+                    <RegistryValue Name="Server" Value="cbord01.stvincents.com.au\svh" Type="string" />
+                    <RegistryValue Name="Database" Value="svh_cbord_prd" Type="string" />
+                    <RegistryValue Name="LastUser" Value="" Type="string" />
+                    <RegistryValue Name="Trusted_Connection" Value="Yes" Type="string" />
+                </RegistryKey>
+
+                <RegistryKey Key="SJH_CBORD_PRD">
+                    <RegistryValue Name="Driver" Value="C:\windows\system32\SQLSRV32.dll" Type="string" />
+                    <RegistryValue Name="Description" Value="SJH_CBORD_PRD" Type="string" />
+                    <RegistryValue Name="Server" Value="cbord01.stvincents.com.au\sjh" Type="string" />
+                    <RegistryValue Name="Database" Value="sjh_cbord_prd" Type="string" />
+                    <RegistryValue Name="LastUser" Value="" Type="string" />
+                    <RegistryValue Name="Trusted_Connection" Value="Yes" Type="string" />
+                </RegistryKey>
+
+                <RegistryKey Key="SHH_CBORD_PRD">
+                    <RegistryValue Name="Driver" Value="C:\windows\system32\SQLSRV32.dll" Type="string" />
+                    <RegistryValue Name="Description" Value="SHH_CBORD_PRD" Type="string" />
+                    <RegistryValue Name="Server" Value="cbord01.stvincents.com.au\shh" Type="string" />
+                    <RegistryValue Name="Database" Value="shh_cbord_prd" Type="string" />
+                    <RegistryValue Name="LastUser" Value="" Type="string" />
+                    <RegistryValue Name="Trusted_Connection" Value="Yes" Type="string" />
+                </RegistryKey>
+
+            </RegistryKey>
+        </Component>
+
+        <Feature Id="MainApplication" Title="CBord Customisations" Level="1">
+            <ComponentGroupRef Id="cbordcustomisationfiles" />
+            <ComponentRef Id="cmp_RegistryEntries" />
+            <ComponentRef Id="cmp_shhshortcut" />
+            <ComponentRef Id="cmp_sjhshortcut" />
+            <ComponentRef Id="cmp_svhshortcut" />
+            <ComponentRef Id="cmp_svpchgshortcut" />
+            <ComponentRef Id="cmp_svphshortcut" />
+            <ComponentRef Id="cmp_tmhshortcut" />
+        </Feature>
+    </Product>
+</Wix>

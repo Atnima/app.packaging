@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Product Id="*" UpgradeCode="c72a6ba2-64cf-47e8-95e2-bb5c7bb8e176" Version="1.0.0" Language="1033" Name="Web Shortcut - Workday" Manufacturer="SVHA">
+        <Package InstallerVersion="300" Compressed="yes"/>
+        <Media Id="1" Cabinet="product.cab" EmbedCab="yes" />
+
+        <Property Id="ALLUSERS"><![CDATA[2]]></Property>
+
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="ProgramFilesFolder">
+                <Directory Id="dir_SVHA" Name="SVHA">
+                    <Directory Id="dir_webapps" Name="webapps" />
+                </Directory>
+            </Directory>
+            <!-- Step 1: Define the directory structure -->
+            <Directory Id="ProgramMenuFolder">
+                <Directory Id="dir_onlinesystems" Name="Online Systems"/>
+            </Directory>
+            <Directory Id="DesktopFolder" Name="Desktop" />
+        </Directory>
+
+        <DirectoryRef Id="dir_webapps">
+            <Component Id="cmp_workdayexe" Guid="*">
+                <File Id="fil_workdayexe" Source="files\Workday.exe" KeyPath="yes" Checksum="yes"/>
+            </Component>
+        </DirectoryRef>
+
+        <DirectoryRef Id="dir_onlinesystems">
+            <Component Id="cmp_workdayshortcut" Guid="13120fac-d917-4c8c-827f-8614d081328e">
+                <Shortcut Id="sc_workdayshortcut" 
+                    Name="Workday" 
+                    Description="Workday Web Shortcut"
+                    Target="[#fil_workdayexe]"
+                    WorkingDirectory="dir_onlinesystems"/>
+           </Component>
+        </DirectoryRef>
+        <DirectoryRef Id="DesktopFolder">
+            <Component Id="cmp_workdaydesktopshortcut" Guid="110ae551-8690-45b1-a376-d0163d7c1b3f">
+                <Shortcut Id="sc_workdaydesktopshortcut" 
+                    Name="Workday" 
+                    Description="Workday Web Shortcut"
+                    Target="[#fil_workdayexe]"
+                    WorkingDirectory="DesktopFolder"/>
+           </Component>
+        </DirectoryRef>
+
+        <Feature Id="MainApplication" Title="Web Shortcut - Workday" Level="1">
+            <ComponentRef Id="cmp_workdayexe" />
+            <ComponentRef Id="cmp_workdayshortcut" />
+        </Feature>
+        <Feature Id="fea_DesktopShortcut" Title="DesktopShortcut" Level="2">
+            <ComponentRef Id="cmp_workdaydesktopshortcut" />
+        </Feature>
+    </Product>
+</Wix>

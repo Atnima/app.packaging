@@ -1,0 +1,164 @@
+101       67Mater Sterrad Incubator                           Sterrad Incubator Check                           
+13        30GUS TOE (1)                                       Chemical Disinfection 10 Minute Soaking           
+13        50GUS TOE (1)                                       Machine Chem Dis.                                 
+14        30GUS TOE (2)                                       Chemical Disinfection 10 Minute Soaking           
+14        50GUS TOE (2)                                       Machine Chem Dis.                                 
+15        30GUS TOE (3)                                       Chemical Disinfection 10 Minute Soaking           
+15        50GUS TOE (3)                                       Machine Chem Dis.                                 
+20        70SVH Steris System One (20066)                     SVH Peracetic Cycle                               
+20        72SVH Steris System One (20066)                     SVH Steris Diagnostic                             
+20        73SVH Steris System One (20066)                     SVH Steris BI                                     
+21        70SVH Steris System One ( 20074)                    SVH Peracetic Cycle                               
+21        72SVH Steris System One ( 20074)                    SVH Steris Diagnostic                             
+21        73SVH Steris System One ( 20074)                    SVH Steris BI                                     
+22        70SVH Steris System One (20072)                     SVH Peracetic Cycle                               
+22        72SVH Steris System One (20072)                     SVH Steris Diagnostic                             
+22        73SVH Steris System One (20072)                     SVH Steris BI                                     
+25        71SVH DFS Channel 3                                 SVH DFS Cycle                                     
+31        01SSD Steam Prevac (31) (Genesis 1)                 Steam Task                                        
+32        01SSD Steam Prevac (32) (Centenary)                 Steam Task                                        
+33        01SSD Steam Prevac (33) (Horizon 1)                 Steam Task                                        
+33        13SSD Steam Prevac (33) (Horizon 1)                 Leak Test                                         
+33        15SSD Steam Prevac (33) (Horizon 1)                 Air Detector Function Test                        
+33        35SSD Steam Prevac (33) (Horizon 1)                 Bowie Dick Test                                   
+33        76SSD Steam Prevac (33) (Horizon 1)                 Biological - Steam                                
+33        P1SSD Steam Prevac (33) (Horizon 1)                 Warmup                                            
+34        07DSU Flash Unit West (34) (OR1&2)                  Flash Task                                        
+34        29DSU Flash Unit West (34) (OR1&2)                  Statim                                            
+35        30SSD Chemical Disinfection 10 min soak             Chemical Disinfection 10 Minute Soaking           
+38        02SSD Sterrad 100S (38)                             Sterrad Task                                      
+38        21SSD Sterrad 100S (38)                             Sterrad short cycle                               
+38        22SSD Sterrad 100S (38)                             Sterrad long cycle                                
+38        79SSD Sterrad 100S (38)                             Biological Low Temperature (Sterrad)              
+38        P1SSD Sterrad 100S (38)                             Warmup                                            
+45        01SSD Steam (45) Gorilla TSB 9                      Steam Task                                        
+45        13SSD Steam (45) Gorilla TSB 9                      Leak Test                                         
+45        15SSD Steam (45) Gorilla TSB 9                      Air Detector Function Test                        
+45        35SSD Steam (45) Gorilla TSB 9                      Bowie Dick Test                                   
+45        76SSD Steam (45) Gorilla TSB 9                      Biological - Steam                                
+45        P1SSD Steam (45) Gorilla TSB 9                      Warmup                                            
+51        01TSU Steam Prevac (51) (Horizon 1)                 Steam Task                                        
+51        13TSU Steam Prevac (51) (Horizon 1)                 Leak Test                                         
+51        15TSU Steam Prevac (51) (Horizon 1)                 Air Detector Function Test                        
+51        35TSU Steam Prevac (51) (Horizon 1)                 Bowie Dick Test                                   
+51        76TSU Steam Prevac (51) (Horizon 1)                 Biological - Steam                                
+51        P1TSU Steam Prevac (51) (Horizon 1)                 Warmup                                            
+52        01TSU Steam Prevac (52) (Horizon 2)                 Steam Task                                        
+52        13TSU Steam Prevac (52) (Horizon 2)                 Leak Test                                         
+52        15TSU Steam Prevac (52) (Horizon 2)                 Air Detector Function Test                        
+52        35TSU Steam Prevac (52) (Horizon 2)                 Bowie Dick Test                                   
+52        76TSU Steam Prevac (52) (Horizon 2)                 Biological - Steam                                
+52        P1TSU Steam Prevac (52) (Horizon 2)                 Warmup                                            
+53        07Theatre Flash Unit North (53) (OR1)               Flash Task                                        
+53        29Theatre Flash Unit North (53) (OR1)               Statim                                            
+54        07Theatre Flash Unit South (54) (OR3)               Flash Task                                        
+54        29Theatre Flash Unit South (54) (OR3)               Statim                                            
+55        07Theatre Flash Unit East (55) (OR6)                Flash Task                                        
+55        29Theatre Flash Unit East (55) (OR6)                Statim                                            
+56        07Theatre Flash Unit West (56) (OR5)                Flash Task                                        
+56        29Theatre Flash Unit West (56) (OR5)                Statim                                            
+58        02TSU Sterrad 100S (58)                             Sterrad Task                                      
+58        21TSU Sterrad 100S (58)                             Sterrad short cycle                               
+58        22TSU Sterrad 100S (58)                             Sterrad long cycle                                
+58        79TSU Sterrad 100S (58)                             Biological Low Temperature (Sterrad)              
+58        P1TSU Sterrad 100S (58)                             Warmup                                            
+62        01Mater Pre Vac Shinva -1                           Steam Task                                        
+62        13Mater Pre Vac Shinva -1                           Leak Test                                         
+62        35Mater Pre Vac Shinva -1                           Bowie Dick Test                                   
+62        76Mater Pre Vac Shinva -1                           Biological - Steam                                
+62        P1Mater Pre Vac Shinva -1                           Warmup                                            
+63        01Mater Pre Vac Shinva - 2                          Steam Task                                        
+63        13Mater Pre Vac Shinva - 2                          Leak Test                                         
+63        35Mater Pre Vac Shinva - 2                          Bowie Dick Test                                   
+63        76Mater Pre Vac Shinva - 2                          Biological - Steam                                
+63        P1Mater Pre Vac Shinva - 2                          Warmup                                            
+64        01Mater Pre Vac Shinva - 3                          Steam Task                                        
+64        13Mater Pre Vac Shinva - 3                          Leak Test                                         
+64        35Mater Pre Vac Shinva - 3                          Bowie Dick Test                                   
+64        76Mater Pre Vac Shinva - 3                          Biological - Steam                                
+64        P1Mater Pre Vac Shinva - 3                          Warmup                                            
+65        02Mater Sterrad 100S                                Sterrad Task                                      
+65        21Mater Sterrad 100S                                Sterrad short cycle                               
+65        22Mater Sterrad 100S                                Sterrad long cycle                                
+65        59Mater Sterrad 100S                                Sterrad Express Cycle                             
+65        79Mater Sterrad 100S                                Biological Low Temperature (Sterrad)              
+68        02Mater Sterrad NX                                  Sterrad Task                                      
+68        21Mater Sterrad NX                                  Sterrad short cycle                               
+68        22Mater Sterrad NX                                  Sterrad long cycle                                
+68        79Mater Sterrad NX                                  Biological Low Temperature (Sterrad)              
+70        01MATER STATIM THEATRE                              Steam Task                                        
+73        01Mater Clinic Statim                               Steam Task                                        
+73        29Mater Clinic Statim                               Statim                                            
+74        02Mater Sterrad 100NX                               Sterrad Task                                      
+74        21Mater Sterrad 100NX                               Sterrad short cycle                               
+74        59Mater Sterrad 100NX                               Sterrad Express Cycle                             
+76        49Mater Heat Sealer - Steam                         Seal Test Steam                                   
+77        31Mater Heat Sealer - Sterrad                       Heat Sealer Seal Check                            
+77        48Mater Heat Sealer - Sterrad                       Seal Test Sterrad                                 
+84        01PH Steam Steriliser 84                            Steam Task                                        
+84        13PH Steam Steriliser 84                            Leak Test                                         
+84        35PH Steam Steriliser 84                            Bowie Dick Test                                   
+84        37PH Steam Steriliser 84                            Heavy Load                                        
+84        76PH Steam Steriliser 84                            Biological - Steam                                
+84        P1PH Steam Steriliser 84                            Warmup                                            
+85        01PH Steam Steriliser 85                            Steam Task                                        
+85        13PH Steam Steriliser 85                            Leak Test                                         
+85        35PH Steam Steriliser 85                            Bowie Dick Test                                   
+85        37PH Steam Steriliser 85                            Heavy Load                                        
+85        76PH Steam Steriliser 85                            Biological - Steam                                
+85        P1PH Steam Steriliser 85                            Warmup                                            
+86        01PH Steam Steriliser 86                            Steam Task                                        
+86        13PH Steam Steriliser 86                            Leak Test                                         
+86        35PH Steam Steriliser 86                            Bowie Dick Test                                   
+86        37PH Steam Steriliser 86                            Heavy Load                                        
+86        76PH Steam Steriliser 86                            Biological - Steam                                
+86        P1PH Steam Steriliser 86                            Warmup                                            
+87        13PH V-Pro Steriliser 87                            Leak Test                                         
+87        32PH V-Pro Steriliser 87                            SVH Lumen Cycle 50deg/40min                       
+87        33PH V-Pro Steriliser 87                            SVH Non-lumen cycle 50deg/18min                   
+87        V1PH V-Pro Steriliser 87                            V-Pro Biological - Lumen                          
+87        V2PH V-Pro Steriliser 87                            V-Pro Biological - non-Lumen                      
+88        13PH V-Pro MAX Steriliser 88                        Leak Test                                         
+88        32PH V-Pro MAX Steriliser 88                        SVH Lumen Cycle 50deg/40min                       
+88        33PH V-Pro MAX Steriliser 88                        SVH Non-lumen cycle 50deg/18min                   
+88        34PH V-Pro MAX Steriliser 88                        SVH Flexible cycle 50deg/20min                    
+88        V1PH V-Pro MAX Steriliser 88                        V-Pro Biological - Lumen                          
+88        V2PH V-Pro MAX Steriliser 88                        V-Pro Biological - non-Lumen                      
+88        V3PH V-Pro MAX Steriliser 88                        V-Pro Biological - flexible                       
+91        04PH Steris Steriliser                              Steris Task                                       
+94        30GUS TOE (94)                                      Chemical Disinfection 10 Minute Soaking           
+95        30GUS TOE (95)                                      Chemical Disinfection 10 Minute Soaking           
+96        30GUS TOE (96)                                      Chemical Disinfection 10 Minute Soaking           
+97        30GUS TRANSRECTAL (97)                              Chemical Disinfection 10 Minute Soaking           
+98        30GUS TRANSRECTAL (98)                              Chemical Disinfection 10 Minute Soaking           
+99        30GUS TRANSRECTAL (99)                              Chemical Disinfection 10 Minute Soaking           
+G1        G1Shinva Steriliser1 #4546                          Steam Standard Instrument                         
+G1        G2Shinva Steriliser1 #4546                          Steam Heavy Instrument                            
+G1        G3Shinva Steriliser1 #4546                          Steam CJD                                         
+G1        G9Shinva Steriliser1 #4546                          Warm Up                                           
+G1        GBShinva Steriliser1 #4546                          Bowie Dick                                        
+G1        GLShinva Steriliser1 #4546                          Leak Rate                                         
+G1        GSShinva Steriliser1 #4546                          Biological                                        
+G1        GXShinva Steriliser1 #4546                          All Steam & Low Temp                              
+G2        G1Shinva Steriliser 2 #4547                         Steam Standard Instrument                         
+G2        G2Shinva Steriliser 2 #4547                         Steam Heavy Instrument                            
+G2        G3Shinva Steriliser 2 #4547                         Steam CJD                                         
+G2        G9Shinva Steriliser 2 #4547                         Warm Up                                           
+G2        GBShinva Steriliser 2 #4547                         Bowie Dick                                        
+G2        GLShinva Steriliser 2 #4547                         Leak Rate                                         
+G2        GSShinva Steriliser 2 #4547                         Biological                                        
+G2        GXShinva Steriliser 2 #4547                         All Steam & Low Temp                              
+G3        G4Shinva Low Temp                                   Low Temp Standard cycle                           
+G3        G5Shinva Low Temp                                   Low Temp Lumen                                    
+G3        G6Shinva Low Temp                                   Low Temp Soft Lens                                
+G3        G7Shinva Low Temp                                   Low Temp Heavy                                    
+G3        G8Shinva Low Temp                                   Low Temp Rapid                                    
+G3        GSShinva Low Temp                                   Biological                                        
+G3        GTShinva Low Temp                                   Low Temp Test                                     
+G3        GXShinva Low Temp                                   All Steam & Low Temp                              
+G3        GZShinva Low Temp                                   Low Temp Flex                                     
+G6        GWSoluscope 1                                       Chemical Disinfection                             
+G7        GWSoluscope 2                                       Chemical Disinfection                             
+H11       31Heat Sealer                                       Heat Sealer Seal Check                            
+H12       31Heat Sealer                                       Heat Sealer Seal Check                            
+H13       31Heat Sealer                                       Heat Sealer Seal Check                            

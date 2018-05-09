@@ -1,0 +1,13 @@
+72 Hour Reprocess             
+Hole in Wrap                  
+Incorrect Label               
+Indicator Tape/Strip Unchanged
+Item Missing                  
+Item Returned OK              
+Item Wet                      
+Opended by Mistake            
+Opened in SSD/TSU             
+Received From Supplier        
+Returned for Micro Testing    
+Returned Not Used             
+Used Item Missing             

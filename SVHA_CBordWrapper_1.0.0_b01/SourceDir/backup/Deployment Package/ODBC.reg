@@ -1,0 +1,50 @@
+
+	Windows Registry Editor Version 5.00
+
+	[HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI\ODBC Data Sources]
+	"SVPH_CBORD_PRD"="SQL Server"
+	"TMH_CBORD_PRD"="SQL Server"
+	"SVH_CBORD_PRD"="SQL Server"
+	"SJH_CBORD_PRD"="SQL Server"
+	"SHH_CBORD_PRD"="SQL Server"
+
+	
+	[HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI\SVPH_CBORD_PRD]
+	"Driver"="C:\\windows\\system32\\SQLSRV32.dll"
+	"Description"="SVPH_CBORD_PRD"
+	"Server"="cbord01.stvincents.com.au"
+	"Database"="svph_cbord_prd"
+	"LastUser"=""
+	"Trusted_Connection"="Yes"
+
+	[HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI\TMH_CBORD_PRD]
+	"Driver"="C:\\windows\\system32\\SQLSRV32.dll"
+	"Description"="TMH_CBORD_PRD"
+	"Server"="cbord01.stvincents.com.au\\tmh"
+	"Database"="tmh_cbord_prd"
+	"LastUser"=""
+	"Trusted_Connection"="Yes"
+
+	[HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI\SVH_CBORD_PRD]
+	"Driver"="C:\\windows\\system32\\SQLSRV32.dll"
+	"Description"="SVH_CBORD_PRD"
+	"Server"="cbord01.stvincents.com.au\\svh"
+	"Database"="svh_cbord_prd"
+	"LastUser"=""
+	"Trusted_Connection"="Yes"
+
+	[HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI\SJH_CBORD_PRD]
+	"Driver"="C:\\windows\\system32\\SQLSRV32.dll"
+	"Description"="SJH_CBORD_PRD"
+	"Server"="cbord01.stvincents.com.au\\sjh"
+	"Database"="sjh_cbord_prd"
+	"LastUser"=""
+	"Trusted_Connection"="Yes"
+
+	[HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI\SHH_CBORD_PRD]
+	"Driver"="C:\\windows\\system32\\SQLSRV32.dll"
+	"Description"="SHH_CBORD_PRD"
+	"Server"="cbord01.stvincents.com.au\\shh"
+	"Database"="shh_cbord_prd"
+	"LastUser"=""
+	"Trusted_Connection"="Yes"

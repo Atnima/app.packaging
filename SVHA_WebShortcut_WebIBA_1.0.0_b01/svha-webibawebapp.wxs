@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Product Id="*" UpgradeCode="bba006b2-d0ba-4980-a12e-1d306f22faed" Version="1.0.0" Language="1033" Name="Web Shortcut - WebIBA" Manufacturer="SVHA">
+        <Package InstallerVersion="300" Compressed="yes"/>
+        <Media Id="1" Cabinet="product.cab" EmbedCab="yes" />
+
+        <Property Id="ALLUSERS"><![CDATA[2]]></Property>
+
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="ProgramFilesFolder">
+                <Directory Id="dir_SVHA" Name="SVHA">
+                    <Directory Id="dir_webapps" Name="webapps" />
+                </Directory>
+            </Directory>
+            <!-- Step 1: Define the directory structure -->
+            <Directory Id="ProgramMenuFolder">
+                <Directory Id="dir_onlinesystems" Name="Online Systems"/>
+            </Directory>
+            <Directory Id="DesktopFolder" Name="Desktop" />
+        </Directory>
+
+        <DirectoryRef Id="dir_webapps">
+            <Component Id="cmp_webibaexe" Guid="*">
+                <File Id="fil_webibaexe" Source="files\WebIBA.exe" KeyPath="yes" Checksum="yes"/>
+            </Component>
+        </DirectoryRef>
+
+        <DirectoryRef Id="dir_onlinesystems">
+            <Component Id="cmp_webibashortcut" Guid="83abf719-e9e2-49b8-a03d-05419f28d9ee">
+                <Shortcut Id="sc_webibashortcut" 
+                    Name="WebIBA" 
+                    Description="WebIBA Web Shortcut"
+                    Target="[#fil_webibaexe]"
+                    WorkingDirectory="dir_onlinesystems"/>
+           </Component>
+        </DirectoryRef>
+        <DirectoryRef Id="DesktopFolder">
+            <Component Id="cmp_webibadesktopshortcut" Guid="6043f2ad-ef63-404e-b13d-6446000e992b">
+                <Shortcut Id="sc_webibadesktopshortcut" 
+                    Name="WebIBA" 
+                    Description="WebIBA Web Shortcut"
+                    Target="[#fil_webibaexe]"
+                    WorkingDirectory="DesktopFolder"/>
+           </Component>
+        </DirectoryRef>
+
+        <Feature Id="MainApplication" Title="Web Shortcut - WebIBA" Level="1">
+            <ComponentRef Id="cmp_webibaexe" />
+            <ComponentRef Id="cmp_webibashortcut" />
+        </Feature>
+        <Feature Id="fea_DesktopShortcut" Title="DesktopShortcut" Level="2">
+            <ComponentRef Id="cmp_webibadesktopshortcut" />
+        </Feature>
+    </Product>
+</Wix>

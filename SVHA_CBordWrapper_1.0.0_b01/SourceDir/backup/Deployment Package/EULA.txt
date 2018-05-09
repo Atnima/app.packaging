@@ -1,0 +1,43 @@
+END-USER LICENSE AGREEMENT 
+IMPORTANT-READ CAREFULLY
+
+THE TERMS AND CONDITIONS OF THIS END-USER LICENSE AGREEMENT SHALL ONLY BE SUPERCEDED BY EXECUTION OF A SEPARATE SOFTWARE & SUPPORT AGREEMENT WITH THE CBORD GROUP, INC.
+
+This End-User License Agreement ("EULA") is a non-transferable, non-exclusive license agreement between you, a single site, and The CBORD Group, Inc. ("CBORD").  This EULA includes computer software and may include associated media, printed materials, and "online" or electronic documentation ("Software Product") for your sole and exclusive benefit.  The Software Product is conditional upon timely payment of annual license fees at the time of licensing, and annually thereafter, together with any other charges.
+
+DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS
+
+SOFTWARE PRODUCT LICENSE:
+If you are installing the Software Product, and you have not paid the fees determined by CBORD expressly for such use, then you agree to notify CBORD immediately of such installation, and you agree to pay a fee as determined solely by CBORD for such use. You agree that you are responsible for both the notification and payment and you agree to remain liable for both.
+
+LIMITATIONS ON USE
+You may not reverse engineer, decompile, enhance, modify, or disassemble the Software Product.  You may not rent, sublicense, resell, lease, give, or lend the Software Product.
+
+TERMINATION:
+Without prejudice to any other rights, CBORD may terminate this EULA if you fail to comply with any of the terms and conditions of this EULA. In such event, you must return and/or destroy all copies of the Software Product and all of its component parts.
+
+COPYRIGHT:
+All title and intellectual property rights in and to the Software Product (including but not limited to any images, photographs, animations, video, audio, music, text, and "applets" incorporated into the Software Product), any accompanying printed materials, and any copies of the Software Product are owned by CBORD. All title and intellectual property rights of the Software Product is the property of CBORD, and is protected by applicable copyright or other intellectual property laws and treaties.   All rights not expressly granted are reserved by CBORD.
+
+SUPPORT SERVICES:
+CBORD provides you with Support Services related to the Software Product ("Support Services").  Use of Support Services is governed by the CBORD policies and programs described in the user manual, in "online" documentation and/or any other materials provided by CBORD. 
+
+Upon payment of annual license fees, CBORD shall provide you with Support Services related to the Software Product. Use of Support Services is governed by the CBORD policies and programs described in the user manual, in "online" documentation and/or other CBORD-provided materials. Any supplemental software code provided to you as part of the Support Services shall be considered part of the Software Product and subject to the terms and conditions of this EULA. 
+
+UPGRADES:
+If the Software Product is labeled as an upgrade, you must be properly licensed to use a product identified by CBORD as being eligible for the upgrade in order to use the Software Product. A Software Product labeled as an upgrade replaces and/or supplements the product that formed the basis for your eligibility for the upgrade. You may use the resulting upgraded product only in accordance with the terms of this EULA.
+
+LIMITED WARRANTY:
+CBORD PROVIDES THE SOFTWARE PRODUCT "AS IS" AND WARRANTS THAT (A) THE SOFTWARE PRODUCT WILL PERFORM SUBSTANTIALLY IN ACCORDANCE WITH THE ACCOMPANYING MATERIALS, AND (B) ANY SUPPORT SERVICES PROVIDED BY CBORD SHALL BE SUBSTANTIALLY AS DESCRIBED IN APPLICABLE WRITTEN MATERIALS PROVIDED TO YOU BY CBORD.  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, CBORD DISCLAIMS ALL OTHER WARRANTIES, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE, WITH REGARD TO THE SOFTWARE PRODUCT.
+
+LIMITATION OF LIABILITY:
+TO THE MAXIMUM EXTEND PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL CBORD OR ITS SUPPLIERS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE PRODUCT OR THE FAILURE TO PROVIDE SUPPORT SERVICES, EVEN IF CBORD HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN ANY CASE, CBORD’S ENTIRE LIABILITY UNDER ANY PROVISION OF THE EULA SHALL BE LIMITED TO THE GREATER OF THE AMOUNT ACTUALLY PAID BY YOU FOR THE SOFTWARE PRODUCT (NOT INCLUDING THOSE AMOUNTS PAID FOR PROFESSIONAL SERVICES, OUT-OF-POCKET EXPENSES, OR SUPPORT SERVICES. BECAUSE SOME STATES/JURISDICTIONS MAY NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY, THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
+
+IN ANY EVENT, CBORD’S ENTIRE LIABILITY AND YOUR EXCLUSIVE REMEDY SHALL BE, AT CBORD’S OPTION, REPAIR OR REPLACE THE SOFTWARE PRODUCT THAT DOES NOT MEET CBORD’S LIMITED WARRANTY. THIS LIMITED WARRANTY IS VOID IF FAILURE OF THE SOFTWARE PRODUCT HAS RESULTED FROM ACCIDENT, ABUSE, OR MISAPPLICATION. 
+
+MISCELLANEOUS:
+This EULA is governed by the laws of the State of New York.
+
+Should you have any questions concerning the EULA, or if you desire to contact CBORD for any reason, please contact CBORD at 607-257-2410 by phone, sales@cbord.com by email, or write: The CBORD Group, Inc. / 61 Brown Road / Ithaca, NY 14850.  
+
+By installing, copying, downloading, accessing or otherwise using the Software Product, you agree to be bound by the terms of this EULA.  If you do not agree to the terms of this EULA, do not install or use the Software Product, and return it to CBORD.

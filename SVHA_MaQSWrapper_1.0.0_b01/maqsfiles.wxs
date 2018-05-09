@@ -1,0 +1,979 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="DYNAMIC">
+            <Component Id="cmp2743827FF011F50C03C9173F108CC5A8" Guid="{E34D7904-767E-4365-8966-2C0A36205FE2}">
+                <File Id="filFE9390FA466345AE039209032063E18B" KeyPath="yes" Source="SourceDir\Account.txt" />
+            </Component>
+            <Component Id="cmp2F33AEAC067A74656430962655070B4F" Guid="{054EC4DE-E3E6-4E0F-B545-BFC21E5364E7}">
+                <File Id="filF92E9BA23B5534CD1660DF55D442E557" KeyPath="yes" Source="SourceDir\Asset.exe" />
+            </Component>
+            <Component Id="cmp8CB5E7466278F9E6D539EFA14C358526" Guid="{251779C6-F451-43C7-9A1F-EF3AD6EE6C65}">
+                <File Id="fil891275AB2B090F41E0D19A0C7BBBC9F8" KeyPath="yes" Source="SourceDir\asta_sqlexpl.exe" />
+            </Component>
+            <Component Id="cmpF8231874DBC3C7444923143EAFF76D29" Guid="{A332AAD6-9032-4326-A1D4-FE68CBF17783}">
+                <File Id="fil348D4037E0FACE125F8FAF8FE6821948" KeyPath="yes" Source="SourceDir\conversion.exe" />
+            </Component>
+            <Component Id="cmpAF339E45663E9E476C3BE7A9A4296EB5" Guid="{70F4B69D-0EDA-42FC-8D4F-179F639C0FF0}">
+                <File Id="fil094D98BB30AC98E5E824DF8455F342C0" KeyPath="yes" Source="SourceDir\DataTrans.exe" />
+            </Component>
+            <Component Id="cmp672A47808E7B133FD7C4BD5076D5DA03" Guid="{1A880C7C-8D10-429F-AB00-EA29502C64D6}">
+                <File Id="filEEACF36D7D43F0B20B8054F23B000A14" KeyPath="yes" Source="SourceDir\DataTrans.Log" />
+            </Component>
+            <Component Id="cmp71507697567CA1B6E5209D369A58B0C7" Guid="{93C390E2-8C2B-4961-957E-C0C21241C1AD}">
+                <File Id="filBFF143F672E7930FAF03458ADDDA7B80" KeyPath="yes" Source="SourceDir\Decontam.chm" />
+            </Component>
+            <Component Id="cmp30CBD3D183BEA5AA7547AD275829A1DF" Guid="{AA68CD9D-0F5D-4FE7-9570-5BCC46EC0B1B}">
+                <File Id="filD1C54819E72E944F06F3CA564936EC0A" KeyPath="yes" Source="SourceDir\Defect.txt" />
+            </Component>
+            <Component Id="cmpACD3027977C4067920776F44C54123C8" Guid="{1473D464-62F6-4B91-94FE-2F73F7E5DBFC}">
+                <File Id="fil13B49D718A9E938E5D51F2FFE355A3CC" KeyPath="yes" Source="SourceDir\discreason.txt" />
+            </Component>
+            <Component Id="cmp29283BA120E2D41C408E2B569ED72874" Guid="{C6C98ABD-8401-4731-9EFD-695D60CB533D}">
+                <File Id="fil3C1EB8D96358E891434FEE6BB663FDBF" KeyPath="yes" Source="SourceDir\EqpTask.txt" />
+            </Component>
+            <Component Id="cmp8D8B4341992CA596CA78E1BC886F3D02" Guid="{75123440-C8CF-463E-8817-78A62CCCFE83}">
+                <File Id="filECFAA3CF44F95CCFF7C3552A5C4C4611" KeyPath="yes" Source="SourceDir\error.log" />
+            </Component>
+            <Component Id="cmp9AEA5E738B98E3B3BC321C94E3F892B5" Guid="{FACCAED4-B520-46AD-B6C3-39A105342AA7}">
+                <File Id="fil1F5FCDA95D6467ACE6A1A9BFE697179D" KeyPath="yes" Source="SourceDir\filename.log" />
+            </Component>
+            <Component Id="cmp95DFA2BC7A464CDBA1C4B64011D27C27" Guid="{5FC509B0-69EF-4C24-8631-3AD947C77A1E}">
+                <File Id="filDAF99C7E3A0EF48BF84D9BF4980F622D" KeyPath="yes" Source="SourceDir\FTPServer.exe" />
+            </Component>
+            <Component Id="cmp98434204B339D81F6D93F18745C23BC7" Guid="{811544EC-9DE5-48AF-89CC-5322887DD708}">
+                <File Id="filD28427496A720D242FE19ADC109FE44D" KeyPath="yes" Source="SourceDir\FTPServer.Log" />
+            </Component>
+            <Component Id="cmp6AC61007F07C7E1D05A59E442107B824" Guid="{F273946D-E6B1-4DE2-8F55-F105F292DD5C}">
+                <File Id="filD7C9BDE080EF30932F089FA58DC4DDB1" KeyPath="yes" Source="SourceDir\hosts.txt" />
+            </Component>
+            <Component Id="cmpCA1088622B0547471438C315BC8B80B1" Guid="{0D6D1D9E-BA50-4E96-B207-9D544789DA10}">
+                <File Id="fil0096FA45CA77E5DF5512E4EA9E28208B" KeyPath="yes" Source="SourceDir\KeyGenerator.exe" />
+            </Component>
+            <Component Id="cmp62A26BBC9DFBB017D3C82CDFC8A7D0CA" Guid="{A9566392-6B61-415F-88BA-8D6E2C316E97}">
+                <File Id="fil9F1127239EEC3998D0354128EC53FABA" KeyPath="yes" Source="SourceDir\MaQS Release Notes 4_1_30.pdf" />
+            </Component>
+            <Component Id="cmpFD89C0D97DCAB63C165B1A3C017C81C0" Guid="{792ACD3F-5CFD-4E54-8D30-A1FA6B9CE08C}">
+                <File Id="filB85FA3141F9D16FE5A7EB8FEC252D03F" KeyPath="yes" Source="SourceDir\MaQS Release Notes 4_1_35.pdf" />
+            </Component>
+            <Component Id="cmp2B3356BBC516D722D6AF5A19ECC8F4B8" Guid="{59BD8BDD-7FE8-4ADA-89A2-92723DF07C6D}">
+                <File Id="filE74516CC40255A2F4F916C8602C440CA" KeyPath="yes" Source="SourceDir\maqs.exe" />
+            </Component>
+            <Component Id="cmp8C4F699132AAA976759D061886468FDD" Guid="{F9DE39CE-CF04-4DC6-A88F-8E4243C369C8}">
+                <File Id="filA766CD1CF6DBE8C521CF64DC2AC7280F" KeyPath="yes" Source="SourceDir\MaQs.tmp" />
+            </Component>
+            <Component Id="cmpB137625B6B23852052C5853D810379F2" Guid="{6BF4B56C-7AFC-4C61-A62C-BBB2149D4E13}">
+                <File Id="filD2B7CD8C71D7D7E86DFCAF4AA1C33E75" KeyPath="yes" Source="SourceDir\MaQSAdmin.chm" />
+            </Component>
+            <Component Id="cmp3D057E84006917A6163096BAF1275200" Guid="{967BE470-DE75-46B2-8253-C2B406EA6795}">
+                <File Id="fil0814ACAA9C5839EFAA4744779966D61E" KeyPath="yes" Source="SourceDir\MAQSAdmin.exe" />
+            </Component>
+            <Component Id="cmp91F19AD880E5D32E799A09395B4FBFFB" Guid="{325066E6-E5F2-4B6D-A0E1-9CCDCE2B31E9}">
+                <File Id="fil9AD965270B72825814B9AF67AACFCC91" KeyPath="yes" Source="SourceDir\maqsapp.ini" />
+            </Component>
+            <Component Id="cmpC53F316F3BAA5C6F5EEBA594A2C79242" Guid="{210647CE-F472-4866-8865-336208C86050}">
+                <File Id="fil6E36F47107BA8DCEBEEE3F3073D218F7" KeyPath="yes" Source="SourceDir\MaQSAppServer.exe" />
+            </Component>
+            <Component Id="cmpCB0816E45C361384529F162DCACFCCF8" Guid="{C6AB2932-B85A-46D6-A0BE-FC959F143B66}">
+                <File Id="fil87273093268CC80C66725B85C943220D" KeyPath="yes" Source="SourceDir\maqsdb.ini" />
+            </Component>
+            <Component Id="cmp79DE5A98541CCD15BE113E25A19EB53A" Guid="{C42A34E8-3722-4635-A59A-CF41F4F42233}">
+                <File Id="fil4DBFEBA20FCACD5C7AD204D9687F7956" KeyPath="yes" Source="SourceDir\MAQSInventory.exe" />
+            </Component>
+            <Component Id="cmpA71B4EC5012C86123176BA520AB56A26" Guid="{E7D22D86-D141-4471-A193-94C0FB857765}">
+                <File Id="fil348A104CC7803AF1E44ED5CBFEBE211F" KeyPath="yes" Source="SourceDir\maqslauncher.exe" />
+            </Component>
+            <Component Id="cmp2F933C701EDB3B4F277D0E1BD7C2276C" Guid="{35FD8764-4029-4038-8017-6446F9300180}">
+                <File Id="filC3546221102CF8BAA4667C9D293513BC" KeyPath="yes" Source="SourceDir\maqslauncher.ini" />
+            </Component>
+            <Component Id="cmpA3C04669BD3C9DB79ADEB873ED5050BB" Guid="{D8CA8CD6-D280-4668-A779-D47C1E629C43}">
+                <File Id="fil34B93F322E8A8E893F349F894284F412" KeyPath="yes" Source="SourceDir\maqsmerge.exe" />
+            </Component>
+            <Component Id="cmp0FFCD276C3E93BFAA32C8D01F9B13F4E" Guid="{E8C85BE5-3615-4000-894F-D596B1FE1E0E}">
+                <File Id="fil097321239896EF6FD1D0F8938DBF6C6E" KeyPath="yes" Source="SourceDir\maqsplus.chm" />
+            </Component>
+            <Component Id="cmp3F3FC74B2D2D6D54C3B57D6DF02041F3" Guid="{A15F281D-56EA-49E9-B6B9-8C09170858AC}">
+                <File Id="fil97A7B6966018E4513C4CF91193FFF181" KeyPath="yes" Source="SourceDir\maqsplus.cnt" />
+            </Component>
+            <Component Id="cmp89BCA6A483AF53CA89B7512F9F270751" Guid="{F03F6BBF-17EF-46B4-9E57-D4721E9E235F}">
+                <File Id="filFB94EBC0026022CC7F2ABDF1A77308BC" KeyPath="yes" Source="SourceDir\maqsplus.exe" />
+            </Component>
+            <Component Id="cmp1237EC6C8E716D8E150242037D33CE37" Guid="{C28792C1-CB41-4A81-AEA8-2F6D2163C311}">
+                <File Id="fil62122D5435A8B0AA50A78F2F92FB6BD7" KeyPath="yes" Source="SourceDir\maqsplus.hlp" />
+            </Component>
+            <Component Id="cmp5024D5335B18CBA4810C1E3CBED4387E" Guid="{5987AD68-9564-4967-A0EE-2913FBB0C74B}">
+                <File Id="fil03035F1E0E0FCB3C1676F754BB0AD76F" KeyPath="yes" Source="SourceDir\maqstmpimage.jpg" />
+            </Component>
+            <Component Id="cmpA8B5D8BF6ED255D69E43314AA7D1D387" Guid="{E26AC6A1-2386-4585-B32F-9C6DA17A750E}">
+                <File Id="fil00843AB7C8A7084E0823B68C541F5E8E" KeyPath="yes" Source="SourceDir\MaQS_32.lnk" />
+            </Component>
+            <Component Id="cmpEF5CA4EB8A47EF7E6A5DE4ECBFAE2984" Guid="{86F09F28-122A-485D-8530-FBB78C7F4F4D}">
+                <File Id="filAEA814D4F77A5CAB45C14D25C2D034E0" KeyPath="yes" Source="SourceDir\MaQS_64.lnk" />
+            </Component>
+            <Component Id="cmp0542A189A2E4EA2B973DCB2B1B31D1B7" Guid="{0661352A-77CC-4B90-A153-15F1E9E40ECC}">
+                <File Id="fil1496E661AAF2761AFC59BFF8E7229104" KeyPath="yes" Source="SourceDir\maqs_decontam.exe" />
+            </Component>
+            <Component Id="cmp32FF321659375224AC165856BE0A152A" Guid="{5EC442BC-02D5-49A8-9674-6D4547E890D8}">
+                <File Id="fil22AF76C6B4D7DF84DDB2E79F02BF1D0F" KeyPath="yes" Source="SourceDir\maqs_update.exe" />
+            </Component>
+            <Component Id="cmp2F534C5F392CFE4E8A7B249867DF0B42" Guid="{CABB620D-F47B-4348-9FA4-EA0CE690E228}">
+                <File Id="fil85C0199B9B0FE7D664F9E2CA934AA01A" KeyPath="yes" Source="SourceDir\mdlookup.exe" />
+            </Component>
+            <Component Id="cmp6B7F88BE7E0A8D0CEB1A0236FE631C1A" Guid="{3C446850-E1E6-4020-9C27-165A3260A1C7}">
+                <File Id="fil46A7FE4355134967F195A4E9D9684C38" KeyPath="yes" Source="SourceDir\MessageServer.exe" />
+            </Component>
+            <Component Id="cmp0B73FAA13283627148E2AF696156D5F9" Guid="{65F76FD7-4016-4EB2-85FE-373365A56A85}">
+                <File Id="fil47A5ABCCDD954660EA070209411174B1" KeyPath="yes" Source="SourceDir\midas.dll" />
+            </Component>
+            <Component Id="cmpD78172F4AABE488AA7B18B04FA6114A1" Guid="{B23E7B5F-C2CE-4791-8101-F65631D67CEC}">
+                <File Id="fil2E73D9C81F6708C947368750B6224431" KeyPath="yes" Source="SourceDir\Operator.txt" />
+            </Component>
+            <Component Id="cmp6660566052D6F808F50D386E9AA9EA06" Guid="{4E682678-005F-466D-9D61-1FE7BEB0AD08}">
+                <File Id="fil04A5A8F16E718AABEA0F621A583AEC58" KeyPath="yes" Source="SourceDir\Packing.chm" />
+            </Component>
+            <Component Id="cmp1494AD8C6F17DCA3FFCC570B4BDCE8A1" Guid="{5E8FD2B3-5710-4344-8631-DAE3ED4F0FF6}">
+                <File Id="fil9612B8EFB25450BBA0D4F44B1F7D3514" KeyPath="yes" Source="SourceDir\Packing.exe" />
+            </Component>
+            <Component Id="cmp4425768A607D32BDE63B207D2CAB9905" Guid="{5DA0F1CC-5F5B-45B0-B183-FF8CE3526680}">
+                <File Id="fil4C544A4BC9C2D945CE49682864845358" KeyPath="yes" Source="SourceDir\PatientAllocation.chm" />
+            </Component>
+            <Component Id="cmp00FB0A5EA95D2BA9B10A8DAA145C20B7" Guid="{10F0B690-94DE-4067-BE6B-15331C572720}">
+                <File Id="fil31B815E2DE25699B0AB38A33D0738909" KeyPath="yes" Source="SourceDir\PatientAllocation.exe" />
+            </Component>
+            <Component Id="cmp241DA4605ED9E6C39E0B23063AC8CC53" Guid="{69A0ACD7-440D-4963-A150-D84C03134519}">
+                <File Id="fil7AF5622359346AE5F752D00A3A2FFEE6" KeyPath="yes" Source="SourceDir\patient_interface.dll" />
+            </Component>
+            <Component Id="cmpE0EC8CE0857AF8023364B6B37799C42C" Guid="{CC6C3BB1-DF66-4230-B137-0BA9DB66E05D}">
+                <File Id="fil3C2A3AAF1FCF8E5FF6A3A582DCF6BC96" KeyPath="yes" Source="SourceDir\Processed Items by tech rating.rtm" />
+            </Component>
+            <Component Id="cmp52B7886C0AD3E8E77A152DFF95C3BFF0" Guid="{ED4AA20F-9064-423A-85D2-40A76CCC1E33}">
+                <File Id="fil69A3B13DCF0AC07DC2182BFC4E21C9AB" KeyPath="yes" Source="SourceDir\Product.txt" />
+            </Component>
+            <Component Id="cmp8316A1C402B3C965E945F47E885B2C6C" Guid="{A521262B-CE6D-4649-B4A3-74DD9325928D}">
+                <File Id="filA5CC880C1142603DEA20B0FAEA6F0188" KeyPath="yes" Source="SourceDir\QualityActivity.chm" />
+            </Component>
+            <Component Id="cmpB8E4D6650F545A00854637C959211759" Guid="{158270BF-91B6-47A9-89C8-4862E70202B4}">
+                <File Id="fil074C2685A764E700E6C080AB4657E7A0" KeyPath="yes" Source="SourceDir\QualityActivity.exe" />
+            </Component>
+            <Component Id="cmp8D6A54A7494CC2BB3FB858F758C2EA26" Guid="{545C5901-3998-40ED-AC18-238F092AA1EA}">
+                <File Id="fil115A1AD6D03F3FDD1E60E1356FA4854E" KeyPath="yes" Source="SourceDir\rbuilder.ini" />
+            </Component>
+            <Component Id="cmp8A65D1DD666ADE0CEFA390FBB05D7415" Guid="{F4404D01-12E1-4D87-A08A-2CDF6E0A0A71}">
+                <File Id="fil785381E65841936EAF4724E0A0BF1483" KeyPath="yes" Source="SourceDir\Reason.txt" />
+            </Component>
+            <Component Id="cmpA44B9A9CF2CE01790ED4521C326E6472" Guid="{BA41DA8A-FDE3-4546-9932-2246E25C3A29}">
+                <File Id="fil7C4BC5DF9F7754EA7569A64B92CAFC79" KeyPath="yes" Source="SourceDir\Release Notes v5.docx" />
+            </Component>
+            <Component Id="cmp0763F068EA97F5F3B5080C1D9C614158" Guid="{0E015BE0-1A4B-4CA4-BE0A-C9AF7580D0E8}">
+                <File Id="filB50C9AC141C5BA5D487262D9F2E3021F" KeyPath="yes" Source="SourceDir\reportlogo.jpg" />
+            </Component>
+            <Component Id="cmp5599D0B8BD5A5DF7F9A4F14E7038B6B5" Guid="{D2828D6B-5ABE-4222-94E0-B8E0C466DA3F}">
+                <File Id="filF21C47BF3C62FAA0CCE29934FA15CD79" KeyPath="yes" Source="SourceDir\reprocess_zit.exe" />
+            </Component>
+            <Component Id="cmp107882F74CB24C5F9FB4417710C30483" Guid="{2CFFEABF-F426-4993-8446-93E1292899DE}">
+                <File Id="filEDE7ABF27D9F831EE8EE5FDD63BE6C5A" KeyPath="yes" Source="SourceDir\Scanning.exe" />
+            </Component>
+            <Component Id="cmpA405DC6D804E7601C3E3804071E23065" Guid="{91D9206F-C52F-4789-B7A9-B5EFEB8E0362}">
+                <File Id="fil1E88D41150320CEE6A260AF85F6BC2B0" KeyPath="yes" Source="SourceDir\sites.txt" />
+            </Component>
+            <Component Id="cmp8F86B67A35F8D42CA1194A83FAA52402" Guid="{55EFBE96-71B1-4B91-ABC8-01D120CBC0B3}">
+                <File Id="filFB6CE029D3199A7E1B2095A0A2F41F20" KeyPath="yes" Source="SourceDir\sqlexpl.exe" />
+            </Component>
+            <Component Id="cmp625973F684AE35A3DF230FAD291D557A" Guid="{01D02DFD-91E3-4384-8477-E5C2A2C9B8AD}">
+                <File Id="fil11EDD8815081EF150CA408E6CCB9D0D4" KeyPath="yes" Source="SourceDir\stercomb.txt" />
+            </Component>
+            <Component Id="cmp6EAFC3111208E37ACA0E412E5D35DA3A" Guid="{8B881869-F0A7-473A-BB99-724BA8A23575}">
+                <File Id="fil9594A1B08B9CE779D66EE0D8DB9D53A5" KeyPath="yes" Source="SourceDir\stockid.txt" />
+            </Component>
+            <Component Id="cmpD4EE7D2CA9A30D3B47DE2CC7529F2795" Guid="{9D347EB0-10B0-419B-AD65-DF24BCEFE257}">
+                <File Id="fil433723783DC1DD4D41127BA41F091924" KeyPath="yes" Source="SourceDir\Stocktake.chm" />
+            </Component>
+            <Component Id="cmp001B0A13A04978C2F1793490F70D51AE" Guid="{CD376B18-8828-42EA-BDEE-77B1E68D700A}">
+                <File Id="fil25C74E0AEB1801ED5042A3512582E28B" KeyPath="yes" Source="SourceDir\Stocktake.exe" />
+            </Component>
+            <Component Id="cmp2F710EF102D1B57FB3A521CD886EB8A3" Guid="{D70D4842-D4F3-4224-9C14-62964908BE59}">
+                <File Id="filCE6F394619B19C1069DBD7D30504D079" KeyPath="yes" Source="SourceDir\Stores.txt" />
+            </Component>
+            <Component Id="cmpABC0AA396527CDDC0561EF4A645BA95C" Guid="{879BABB1-F012-43DD-88A7-8BD997673245}">
+                <File Id="fil384C32653C38BB3A942D2091F5528DE6" KeyPath="yes" Source="SourceDir\unins000.dat" />
+            </Component>
+            <Component Id="cmp1B3B8ABA4CB3C4C8B5617AEC9F5C2090" Guid="{DB474A59-CA4B-4572-AB0D-35E96AC17702}">
+                <File Id="fil3303DF41266842A303496D16ADA1A06D" KeyPath="yes" Source="SourceDir\unins000.exe" />
+            </Component>
+            <Component Id="cmp63361A198B0EE30DE8DC835BA1EF38C5" Guid="{161957C5-2D77-42A1-9611-D0196AAF9AA3}">
+                <File Id="fil8E6F85B6316777D0BDEE8DF13054A11A" KeyPath="yes" Source="SourceDir\UpdateInstProgIDs.exe" />
+            </Component>
+            <Directory Id="dirDA123E7227DDEBFD4339420CDDA21B97" Name="ceinstaller">
+                <Component Id="cmp5D1BBFF307B27B538C8B2E7EE610E0F2" Guid="{B757E361-D006-4367-8BEF-E34C89411C98}">
+                    <File Id="fil43DD100A296B299C1A1911A8E18F6B91" KeyPath="yes" Source="SourceDir\ceinstaller\CEInstaller.exe" />
+                </Component>
+                <Component Id="cmp1814246E47B2A3A138F64D50D46F7FFC" Guid="{B9D30B17-CD92-4A52-8A27-18401177A6EA}">
+                    <File Id="fil078877E65C22BADF799612C324C287E4" KeyPath="yes" Source="SourceDir\ceinstaller\CeInstaller.ini" />
+                </Component>
+                <Component Id="cmp1E2FBD082D3FF946985AB55257766AB0" Guid="{A410D252-4C6B-4B5E-A690-3EFE40CE1E2E}">
+                    <File Id="fil407F65D996F1D2A10D357AD01AB3E9DB" KeyPath="yes" Source="SourceDir\ceinstaller\CeInstaller.ini.old" />
+                </Component>
+                <Component Id="cmpA97FB94E3B8A355FDDD64C67E3C25BAA" Guid="{4751FC2E-73B7-4CD9-B14C-2483E07DB1FD}">
+                    <File Id="filBEFB87181EA68189EB477A2DDA9ED01A" KeyPath="yes" Source="SourceDir\ceinstaller\confirm.wav" />
+                </Component>
+                <Component Id="cmpA35CB707A8C883A0DF0A2482FE66A673" Guid="{CC345E2C-6C04-4B18-8654-FD4610482829}">
+                    <File Id="fil48B7A5FB98154A228819D3BBDBAAA8B5" KeyPath="yes" Source="SourceDir\ceinstaller\error.wav" />
+                </Component>
+                <Component Id="cmp09B2FCCFB541421E41AA7E67BC44D921" Guid="{EEA36D17-D47A-4D8B-8F6B-949AEEA4C115}">
+                    <File Id="filCCC3A443A5601094DFF91A68DB1155DE" KeyPath="yes" Source="SourceDir\ceinstaller\MaQs.NET.exe" />
+                </Component>
+                <Component Id="cmp2867156A8D61C4BBD13098830A8432A8" Guid="{47AFE021-7AC7-41E5-B988-D160AA021F24}">
+                    <File Id="filF00693B1FCFD60C9E04701D90628905D" KeyPath="yes" Source="SourceDir\ceinstaller\MaQs.NET.lnk" />
+                </Component>
+                <Component Id="cmpD3036C793777B0D663ABCE6CF6C5DFD2" Guid="{96FABCA7-EE86-418F-9400-91C467F76FE7}">
+                    <File Id="fil6EDD955935FB33C0AC82BAF29E02C180" KeyPath="yes" Source="SourceDir\ceinstaller\MaQs.NET.lnk.lnk" />
+                </Component>
+                <Component Id="cmpA01637FE2D86FACFDE5F7493D98F3579" Guid="{47D76E3D-A996-4FDD-9C1F-A507BCB46BEC}">
+                    <File Id="fil0066956301C5A8D5E517505B8284807B" KeyPath="yes" Source="SourceDir\ceinstaller\MaQsSymbol.ARMV4.CAB" />
+                </Component>
+                <Component Id="cmp3DABCD01EA204B54143E986736EEB37E" Guid="{95986932-DC2B-42D1-900D-653488A26905}">
+                    <File Id="filC6F112049D79B39D0E8D02282668FC7D" KeyPath="yes" Source="SourceDir\ceinstaller\MaQsSymbol.NET.exe" />
+                </Component>
+                <Component Id="cmpC2DAAD2F1DEC87B8E1B360FB8DAED807" Guid="{7813F26A-E00E-4C20-AAE2-9A487491D97F}">
+                    <File Id="fil22860E54D6C36D6133E1F59A74DF6C6B" KeyPath="yes" Source="SourceDir\ceinstaller\MaQsVanilla.ARMV4.CAB" />
+                </Component>
+                <Component Id="cmpDB57F4416E16B2A9007847D1D01F1074" Guid="{0611E195-4513-47A7-969F-141BFEDEA74A}">
+                    <File Id="fil140E64F13A3218C5EB826FFA49DA5494" KeyPath="yes" Source="SourceDir\ceinstaller\MaQsVanilla.NET.exe" />
+                </Component>
+                <Component Id="cmp39AD50FDC1D81EBF3CB91958C8F06FEB" Guid="{B0DC579B-FEFD-4CF3-944E-3DAEE7426C03}">
+                    <File Id="fil5319475CF8EB891F16F44B6277E8ECB8" KeyPath="yes" Source="SourceDir\ceinstaller\MaQSWinCE5.CAB" />
+                </Component>
+                <Component Id="cmpF0271479455581D6C21A8669B1C9CFE2" Guid="{4CBF0CA9-BCFD-4D63-9889-C7DF3B3E7DC8}">
+                    <File Id="fil855C6AE779C0BC3F9DE7F3ABB0884EFB" KeyPath="yes" Source="SourceDir\ceinstaller\maqs_pda.exe" />
+                </Component>
+                <Component Id="cmp2B47BD7CD87D030B1B1782E64431C253" Guid="{0390F4A3-3C54-4E68-B09F-4CF886339E73}">
+                    <File Id="fil002431709385516E81021C5EE9B8AC7E" KeyPath="yes" Source="SourceDir\ceinstaller\netcf.all.wce4.ARMV4.cab" />
+                </Component>
+                <Component Id="cmp1C5F4DDC821DE28BDEDC0CF7F061EC41" Guid="{FF575AFA-D30A-4FCF-812E-584354F406D9}">
+                    <File Id="fil1C22D39D6B0BB23B605353BB08DEBA16" KeyPath="yes" Source="SourceDir\ceinstaller\NETCFv2.wce5.armv4i.cab" />
+                </Component>
+                <Component Id="cmp936AF1666B3662A73249972CC1178E93" Guid="{08237AC7-4AE9-4DDF-B7B3-734744A3BE10}">
+                    <File Id="fil6F6EE3BA4356596F2ABF0E519D3DE8E0" KeyPath="yes" Source="SourceDir\ceinstaller\oldMaQs.NET.lnk.lnk" />
+                </Component>
+                <Component Id="cmp068FEFB73E5770CD7ED8D379529021F7" Guid="{429ABAD2-FE18-4398-AEE7-8F62A7D6FD80}">
+                    <File Id="filE62C50078AA1A37C1305D16617D050D9" KeyPath="yes" Source="SourceDir\ceinstaller\OpenNETCF.SDF.PPC3.ARMV4.CAB" />
+                </Component>
+                <Component Id="cmp9975D18A5C0033D7E3EC8AEB4E71F39E" Guid="{918D6F4E-63BB-481F-9C2E-4DC67FABB541}">
+                    <File Id="fil0BEB2CED92496F8816D6995BC46EAF06" KeyPath="yes" Source="SourceDir\ceinstaller\OpenNETCF.SDF.WCE4.ARMV4.CAB" />
+                </Component>
+                <Component Id="cmpD7C971B32785483EF296FA25748CD542" Guid="{888B103A-B8F7-460D-816F-C9438B9294B0}">
+                    <File Id="filA79A5A8E8FDC464BB02EEBD169332594" KeyPath="yes" Source="SourceDir\ceinstaller\PDS.INI" />
+                </Component>
+                <Component Id="cmp30FA45DA65647C446AC4AE7E4AA088FF" Guid="{43283021-F901-4B45-9B7B-A6E1AFEDA914}">
+                    <File Id="fil6D8E9BB4F74B26B29D56B8B94B0E3D9D" KeyPath="yes" Source="SourceDir\ceinstaller\PDS.INI.saved" />
+                </Component>
+                <Component Id="cmp6C94A6892FA03B19368E2ABF7DC5EBD1" Guid="{5C6EC62A-799D-431A-9F49-016080153FBC}">
+                    <File Id="filA098CC13633FA2A7A19324AC3623F668" KeyPath="yes" Source="SourceDir\ceinstaller\pdstmp.ini" />
+                </Component>
+                <Directory Id="dir819BF89ADF39F966239CB9F3B235551C" Name="4185">
+                    <Component Id="cmp89CCFF9EF6EE1A868704282B0B192973" Guid="{A1602D53-27DE-42EB-AE9B-3C1A8588FD9F}">
+                        <File Id="fil0BC8DEFB99F2B37CC3D19C7D42E7734D" KeyPath="yes" Source="SourceDir\ceinstaller\4185\MaQsSymbol.NET.exe" />
+                    </Component>
+                    <Component Id="cmpFBDD13A9C57D591127123DCB2D7452D6" Guid="{51975D5A-5AAE-464B-8C4A-E62D35321A79}">
+                        <File Id="fil1986424D869A1DF19A35D59432077635" KeyPath="yes" Source="SourceDir\ceinstaller\4185\MessageServer.exe" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir8837355CB19D484DDEA46AE382ECE1F1" Name="s3000_optional">
+                    <Component Id="cmpB55180A39C135B81AED81ED0AC500A9E" Guid="{88EC1582-62B3-43F2-89D9-1CE0D03F6509}">
+                        <File Id="fil17BD2345F34C16477C33C6A65FFD3664" KeyPath="yes" Source="SourceDir\ceinstaller\s3000_optional\sqlce.ppc.wce4.armv4.CAB" />
+                    </Component>
+                    <Component Id="cmp532C89358D0897A11EEA48B5297F40F9" Guid="{23D26852-ED1E-44F0-85F7-634BEA007D0D}">
+                        <File Id="filF0D8B0A81C64B601ECE914D152984368" KeyPath="yes" Source="SourceDir\ceinstaller\s3000_optional\sqlceca35.dll" />
+                    </Component>
+                    <Component Id="cmp6B1E55E27F6BCE4CDFA9899A35A84AD8" Guid="{1115B118-EB86-4B50-B523-39B28400019B}">
+                        <File Id="fil0909BB1316D10A45436E559FA1A57EED" KeyPath="yes" Source="SourceDir\ceinstaller\s3000_optional\sqlcecompact35.dll" />
+                    </Component>
+                    <Component Id="cmpFFC2933E12C74B91BA0F97F8B07AEE83" Guid="{DA187BB8-63B9-46E9-8602-E30B78DAE644}">
+                        <File Id="fil86C291B39BA07E4C1C0C77BB5381E885" KeyPath="yes" Source="SourceDir\ceinstaller\s3000_optional\sqlceer35EN.dll" />
+                    </Component>
+                    <Component Id="cmpFAD78F52A0D0367A85FAC4BECD6D8726" Guid="{3DD3D06C-0C19-426F-BA53-4C5E959797FA}">
+                        <File Id="filED677FC3F91C7DE9EAD5580EBC2B6F80" KeyPath="yes" Source="SourceDir\ceinstaller\s3000_optional\sqlceme35.dll" />
+                    </Component>
+                    <Component Id="cmp59D044C665B87B5D53D370923D3D6AA1" Guid="{2552D128-1135-4945-8912-8FB165124BD0}">
+                        <File Id="fil4AE446161F04B118C0DBCA695BEF0245" KeyPath="yes" Source="SourceDir\ceinstaller\s3000_optional\sqlceoledb35.dll" />
+                    </Component>
+                    <Component Id="cmpEBBEF6771CB0853816106DF84E387B75" Guid="{FE8E935A-2B7E-4AFA-86CC-EE1B778A2D75}">
+                        <File Id="filCBF9A81199AB4BF268563045FB9F3323" KeyPath="yes" Source="SourceDir\ceinstaller\s3000_optional\sqlceqp35.dll" />
+                    </Component>
+                    <Component Id="cmpDB1E216BA5BC74D6062BA145ABFCB8A1" Guid="{92CF299F-B3E7-4C4B-B949-8C9F5228A033}">
+                        <File Id="filA536CF76644E69EDFAE4D9191430FCA7" KeyPath="yes" Source="SourceDir\ceinstaller\s3000_optional\sqlcese35.dll" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir917899AC6220494B9B545F47283D515B" Name="symbol3000">
+                    <Component Id="cmp65B2CBB138B112A7406E350F86271BE8" Guid="{C399319D-7B75-4A68-AA1F-2FC6EB971041}">
+                        <File Id="filC987391A572269D8C985803B63F7B5D5" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\Atomic.CF.dll" />
+                    </Component>
+                    <Component Id="cmp8DB012325707870AB4C5F46F4A631E4B" Guid="{31FD553D-070B-4DF8-AF2C-A6C21F04B2DE}">
+                        <File Id="fil2D346B82813418A4E8F02063D35F9FE2" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\FTPClientCF.dll" />
+                    </Component>
+                    <Component Id="cmp2C462F89A844D87A959B1082C6864165" Guid="{10FA6E8D-4449-454B-985D-30DD8A242121}">
+                        <File Id="fil4CA296496838AFBC497903C76388FBCC" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\MaQS.ico" />
+                    </Component>
+                    <Component Id="cmp6DA262F758996340167BCB7E742762D6" Guid="{339DB6C7-38DA-43C9-8429-C089C4A5FEF4}">
+                        <File Id="fil71CC7C4914B8290D7EE6BEADCC7AB888" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\MaQs.NET.lnk" />
+                    </Component>
+                    <Component Id="cmp4FD19B71F63205DA318E432B275A52F0" Guid="{E0BCE713-295B-4653-8BA6-416BC8D0C8F5}">
+                        <File Id="filF8E243C1AEBC7ADC9439A3EE457CF566" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\MaQsSymbol.ARMV4.CAB" />
+                    </Component>
+                    <Component Id="cmp700432819BF56CEC82EF779D43A3CC4B" Guid="{F098F473-6F3F-46C3-8312-F845F0A98A67}">
+                        <File Id="filC996629E797069FE60BA4DB367C51827" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\Microsoft.VisualBasic.dll" />
+                    </Component>
+                    <Component Id="cmpED8AE9F58CB2928A4F3078321320EA41" Guid="{0B8484FD-0879-4BB4-AB77-5BDAE089404C}">
+                        <File Id="fil9C7015E50C3D65FE60967B91624B97DC" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\Microsoft.WindowsCE.Forms.dll" />
+                    </Component>
+                    <Component Id="cmp6E4790CB5A2F2CDE7DCFEDAFFA0C6AB7" Guid="{B3E0F02B-F65E-4A4D-8A6E-13BB5C9E659C}">
+                        <File Id="fil052B284E621D28763844DD33D6E1831D" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\mscorlib.dll" />
+                    </Component>
+                    <Component Id="cmp78E2E1A5BB057F8F9B324214B5B0032C" Guid="{55D0C91F-AD07-4600-9D7E-8243CA430188}">
+                        <File Id="fil1A32A3288D190E90E045ECE44227427B" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\OpenNETCF.Data.dll" />
+                    </Component>
+                    <Component Id="cmpD621CFE760D1A4E1C9D84E8BD3C8FD45" Guid="{F20053E9-8617-4D1F-887A-9BFB3CBD8A4F}">
+                        <File Id="fil6A05E64C6C129D689B1DE922E62758E1" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\OpenNETCF.dll" />
+                    </Component>
+                    <Component Id="cmp7ED08C63946ECCF97C78A0157121E946" Guid="{EE5B12BD-43FF-449A-8E4A-C10327FF2435}">
+                        <File Id="filBCA40D9F404E63D2E0AC00292CBD4419" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\OpenNETCF.Drawing.dll" />
+                    </Component>
+                    <Component Id="cmp797C65F5B491CD203F65396A961199FC" Guid="{EFFC4E9C-FF4B-410D-81CE-591429A45FDC}">
+                        <File Id="fil08F95AD76EF93732693912CAD2075C96" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\OpenNETCF.Net.dll" />
+                    </Component>
+                    <Component Id="cmp859F01B9F89F0BCFD6BDA5ABE2AEF50D" Guid="{067B01C2-F2EC-4D32-A137-DC31DC0C7B66}">
+                        <File Id="filD633C10B7721B185CBB409325B6A3F50" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\OpenNETCF.Windows.Forms.dll" />
+                    </Component>
+                    <Component Id="cmp1396A69CB53505FD18D7F919975CCED2" Guid="{9C3AE60F-D279-420E-B9DB-37BF42EE45B3}">
+                        <File Id="filFAACD780E710D027F59C8D86E1B3564B" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\OpenNETCF.WindowsCE.Forms.dll" />
+                    </Component>
+                    <Component Id="cmp0BBDDFCA24E290C0E37569316B8308EA" Guid="{773C6DDD-A267-43A8-8993-CA9AADDD7A23}">
+                        <File Id="fil2C04218DC702CEE9BD6D2530F8788665" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\pds.ini" />
+                    </Component>
+                    <Component Id="cmpFEC9B86E9254A0C28B1D5A949C417104" Guid="{D69E6250-2DF1-4510-8E39-928216B9C8DA}">
+                        <File Id="fil2C158547EA22FB2D34FC3F4F7AD542EF" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\sql.wce4.armv4.CAB" />
+                    </Component>
+                    <Component Id="cmp00D41546C51CFB3B7EF20376F5E4D71A" Guid="{B5043599-297B-448A-920B-34E6A0022366}">
+                        <File Id="fil25EB26D06E09955AA98D367978C617A1" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\sqlce.dev.wce4.armv4.CAB" />
+                    </Component>
+                    <Component Id="cmp5BC4CCF5C4312BF914F01E63E24C5798" Guid="{7CB2543B-D8F9-46A8-B819-F3A938E16A5C}">
+                        <File Id="fil0595DC3B5CD61A3B29928311666AE90E" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\sqlce.wce4.armv4.CAB" />
+                    </Component>
+                    <Component Id="cmpEF1B53EE61E1D46B10E65310E8FBC382" Guid="{0343D392-BCED-4273-B3EB-9040C58E8974}">
+                        <File Id="fil7E1D6305CD08628E8E267A72AF07AA94" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\sqlceca35.dll" />
+                    </Component>
+                    <Component Id="cmpF94EFF213B7F60CEF6E87D216C1194ED" Guid="{471CAC25-B139-4C03-AEF5-7738CF633149}">
+                        <File Id="filD5B0F3CA40F31D7363ABB63C979452A6" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\sqlcecompact35.dll" />
+                    </Component>
+                    <Component Id="cmpA56CEE9C233855705CEB0A24AD9C1CB7" Guid="{6A6C5768-EE67-49E8-8424-3F52679BA6EA}">
+                        <File Id="filF7ACFCBC918545CF049E17EFA2EAB28A" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\sqlceer35EN.dll" />
+                    </Component>
+                    <Component Id="cmp6DB0DB8861C792C15787108A1C4BEBA2" Guid="{69B47066-F9FB-4DE2-915E-93EC9E06BADF}">
+                        <File Id="fil7C23E59D95C1F2E4F84C75C3F8147B01" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\sqlceme35.dll" />
+                    </Component>
+                    <Component Id="cmpF363DEC6AF4CFE0AEF0A063205726B0A" Guid="{BF97CA12-05E3-482F-A451-A3173B34FBE5}">
+                        <File Id="fil95005FBFBE4C768795EACA94C4963470" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\sqlceoledb35.dll" />
+                    </Component>
+                    <Component Id="cmp24DF568234D6577D7FDCC10B3DA484FE" Guid="{283E35FF-E4CC-42A2-9CA0-F0336F59B0BB}">
+                        <File Id="fil7383DDF3F54D41AE6CAC4066BD5C01C7" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\sqlceqp35.dll" />
+                    </Component>
+                    <Component Id="cmp25258E551D45EDD16345962C3AEA6E97" Guid="{394A8A30-9055-4E13-81FB-72BC8210EDDD}">
+                        <File Id="filC15D67B4D2A65AD357FAD04F19DE1F37" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\sqlcese35.dll" />
+                    </Component>
+                    <Component Id="cmp69C9907D836ABC350DA543562C1D637E" Guid="{E3884004-F8A7-452A-A381-8CF0D3B3FD20}">
+                        <File Id="filB50BABCE2D389F5399B4DD996B468C70" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\Symbol.Barcode.dll" />
+                    </Component>
+                    <Component Id="cmp0E1FE0B3E49EB272526D4FE3A376C312" Guid="{1A857852-3BC6-4F12-BFC5-180DBF8D8D15}">
+                        <File Id="fil5BA20382B4BE5B77DEF29879FEE56D2C" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\Symbol.dll" />
+                    </Component>
+                    <Component Id="cmp7B371FDFCC83F65B937ED89185ED44EA" Guid="{7B16C12C-5C98-482E-A9FB-A421F8A2F2F4}">
+                        <File Id="filF244FE9CFF71F4AD0038C31722CEE59E" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\System.Data.Common.dll" />
+                    </Component>
+                    <Component Id="cmpABAB91A504EB704D7798EB2B17DA38FF" Guid="{0F457DC2-1DA7-4501-B7FC-4A3DFF6D2FF0}">
+                        <File Id="filBD3CA602ACB191B7DF640B904E0A4C7C" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\System.Data.dll" />
+                    </Component>
+                    <Component Id="cmp47E8BA81197C785FCDE1F24D45A3AF16" Guid="{CEA018A2-D818-4AF5-9603-B0273928A031}">
+                        <File Id="filC0CCD6CA89A175F4CB0FA9B78D5F1772" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\System.Data.SqlClient.dll" />
+                    </Component>
+                    <Component Id="cmp63CBCCA51747FBD154911565C431571D" Guid="{5655464F-BE11-4F0A-B964-6D03A30C9B00}">
+                        <File Id="fil8AED6755AC02A95B4AE1360D419F5323" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\System.Data.SqlServerCe.dll" />
+                    </Component>
+                    <Component Id="cmpC52FCB48CBEC1C157927C5FE71E27C9D" Guid="{C3587704-FDE5-424C-BC31-774DEBE92947}">
+                        <File Id="filDB1E1F0F6B15070AA2B4137F7891BE9E" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\System.dll" />
+                    </Component>
+                    <Component Id="cmp5353C950AA4655E7A6C64981FA48319E" Guid="{706741E6-9291-4C12-A230-39B5AA4CADAC}">
+                        <File Id="fil5A25B524D3353D0587EA4EFE13877877" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\System.Drawing.dll" />
+                    </Component>
+                    <Component Id="cmp3D402B025ACAC4B5C5AF5DE1F4B8085D" Guid="{B47528DC-02EB-4F83-8074-4F5A94BD9B33}">
+                        <File Id="fil2111F7278B75EDD24B30375EBC5EAC6C" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\System.Windows.Forms.DataGrid.dll" />
+                    </Component>
+                    <Component Id="cmpD8665FEB5C99A505AEC41EBCB749B9DE" Guid="{E1775D07-94F0-4120-8E06-B8444C7900FB}">
+                        <File Id="fil40ADBF0B62E50EA398D911BAE9B1189B" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\System.Windows.Forms.dll" />
+                    </Component>
+                    <Component Id="cmp4005B4CAA5075148BE0F429C2239D778" Guid="{D2C9CD75-8ECC-45F0-9F57-5FBDD2FF0459}">
+                        <File Id="filB09A1940010412003660D98F1DDE28F2" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\System.Xml.dll" />
+                    </Component>
+                    <Component Id="cmpD8775B0C9A1E04A3116BFFA78A66B89A" Guid="{FE986373-D5EC-4032-BAD8-BE86077D14F3}">
+                        <File Id="filB57DDEC37949E48108FE6E88CD0A7174" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\Terminal.API.dll" />
+                    </Component>
+                    <Component Id="cmpBDFB2F48D32F5B14229BB289D4AA82BC" Guid="{502502A1-8DE2-4565-88F0-F3F36AF08AD6}">
+                        <File Id="fil4BCDA84ED5E9BCA26C76EADB7E4BFAB6" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3000\Thumbs.db" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir8A86CF83B6951A1E310D70AE3ED4D4EE" Name="symbol3190">
+                    <Component Id="cmpCC84395C2565555732773A4EF81D5B7A" Guid="{EA13856E-8E71-4CB4-A665-D58FA01B2890}">
+                        <File Id="fil63AE8A80F64D457BF88A6D8D51F7FC16" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\Atomic.CF.dll" />
+                    </Component>
+                    <Component Id="cmpE529FD8179C388913E28755BE6994C09" Guid="{3FB341A1-109F-4435-85FA-A0DEF577B561}">
+                        <File Id="filC684AF6E0D4E74BC87412B64FF7032D3" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\dbnetlib.dll" />
+                    </Component>
+                    <Component Id="cmpE3B5A3AE3D735C032C0BB44AAF72E1E3" Guid="{03D7F839-BF47-462B-A6BA-3E8CDA8E44B0}">
+                        <File Id="fil29AE8B236A995AB2B83DD0E7311E46E5" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\FTPClientCF.dll" />
+                    </Component>
+                    <Component Id="cmp3859D0F3C94784456600F7FACBFAA5ED" Guid="{99FE0542-9434-44E3-95B2-EDFE32ED0332}">
+                        <File Id="filABC0ED977BBF63036B775D023DC4E7DA" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\Ionic.Zip.CF.dll" />
+                    </Component>
+                    <Component Id="cmpD01D10AA6319A1ACE7F38CA75932C28A" Guid="{D924956A-0692-4041-8125-7BDFEDF67CC5}">
+                        <File Id="fil417E822E647DFDDDF6B917600CEDBDE7" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\maqs.net.lnk" />
+                    </Component>
+                    <Component Id="cmp67B3F5E04D41B643889F236E8E7CCAE5" Guid="{8E354F3B-820A-4F7C-878B-5DDA38B0EA8F}">
+                        <File Id="fil23A31F10E1F6B4049D69402F36213EC2" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\microsoft.visualbasic.dll" />
+                    </Component>
+                    <Component Id="cmp7666A51635D50564291F96713DAB7D72" Guid="{EC5862D2-7FCF-4B72-82A2-A5E2DBE1DE86}">
+                        <File Id="filC049DBEA9ABA0D83DBC825B05BE5FD96" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\Microsoft.WindowsCE.Forms.dll" />
+                    </Component>
+                    <Component Id="cmp1047B5F8A0BB78CAC062AC5F05298E1F" Guid="{18BD6D26-AFAD-421A-B50E-6E5BE9E47EEE}">
+                        <File Id="filEBA2F019BCF28CFC4292A8F8D1B6E4FF" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\mscorlib.dll" />
+                    </Component>
+                    <Component Id="cmp09257B1E5C1CB059B8C015F91B6FFD2C" Guid="{BCB1F7BA-D1E4-444D-BEC7-673E903C931E}">
+                        <File Id="fil341837E08D83A258C800D8073F873103" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\OpenNETCF.Configuration.dll" />
+                    </Component>
+                    <Component Id="cmp04DA9A7246C2B019B633A5BBE2B3F789" Guid="{25498F6A-C450-4BA8-A567-0D48338A6111}">
+                        <File Id="filFE62CCC97C8D8CDC743D76F05CB70495" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\opennetcf.data.dll" />
+                    </Component>
+                    <Component Id="cmp3A0BDB6E8180C8FF8E221B0142734B34" Guid="{4605E987-91EE-4E46-8689-1C7FCD561DAC}">
+                        <File Id="filC8F5181AD49403F91BE0516E37556EBD" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\OpenNETCF.dll" />
+                    </Component>
+                    <Component Id="cmp98EA64E1B6F8B5EE283E4C47136F8055" Guid="{CAB713E4-4A94-4447-97AD-5C6E3C006F7C}">
+                        <File Id="filF6139655330BE7ACDBB0EE6C4091351C" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\OpenNETCF.Drawing.dll" />
+                    </Component>
+                    <Component Id="cmp54250ACE1086F31FC13C3B692894E7EC" Guid="{856D97FF-7EEB-4C96-AC6C-3111D3DBBDFD}">
+                        <File Id="fil7B3CF3E87B35EBB79698C3F37E5FC54B" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\OpenNETCF.Windows.Forms.dll" />
+                    </Component>
+                    <Component Id="cmp337E5F2FBE2288A78A9A15515058BF87" Guid="{4A262072-4BD5-4562-8A10-2670B9020F13}">
+                        <File Id="filABE8CCB604C299AD4721EE2F78C4EF59" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\OpenNETCF.WindowsCE.dll" />
+                    </Component>
+                    <Component Id="cmpF6217C66AF9689EB051F11F2FAD05D63" Guid="{CE35FE7F-D5F3-49E9-89F3-6424865183C8}">
+                        <File Id="fil310BE60CD067D588699DF52017C737DE" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\OpenNETCF.WindowsCE.Messaging.dll" />
+                    </Component>
+                    <Component Id="cmpD151AFDA4162E8758D35F12C4ED78B00" Guid="{CFA786AE-D1B0-4AAD-BF2F-44CE3FDB0000}">
+                        <File Id="fil866BCDF2071C757D9B23EC1C3F1780F4" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\sql.dev.ENU.wce5.armv4i.CAB" />
+                    </Component>
+                    <Component Id="cmp595DB10C2BA4002E6320AEFFC875F724" Guid="{8A73FE86-EE22-4D76-813E-784DC0FCD69F}">
+                        <File Id="fil4A63A49B0A5B91E4FFB7AA932051FAAF" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\sql.wce5.armv4i.CAB" />
+                    </Component>
+                    <Component Id="cmp0B64FABD1365A518402CBCEDA3A13374" Guid="{A48F5E9E-5A42-43B4-97A7-B19E9A9FDB16}">
+                        <File Id="filFD60D2E62C4F05E24CA41B54B218C81A" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\sqlce.dev.ENU.wce5.armv4i.CAB" />
+                    </Component>
+                    <Component Id="cmp2ADFC311A491ECD56059CC1472A6E9C4" Guid="{9D5B4654-FCF0-4AF4-9E63-EA3B2B346FD8}">
+                        <File Id="fil3D3B2E20AE74B81A823FF6911C782A2E" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\sqlce.repl.wce5.armv4i.CAB" />
+                    </Component>
+                    <Component Id="cmp4044285B99BF2AF3059C2882087477DC" Guid="{5138C071-E33C-43E3-AE20-2FE4612A0C83}">
+                        <File Id="fil1C1972E982FACA483C1CDCA751ECA4C1" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\sqlce.wce5.armv4i.CAB" />
+                    </Component>
+                    <Component Id="cmp4F60D400D707F488A06D74E28FF54F22" Guid="{5FCE65ED-587A-4814-927B-95FFF6BA0B2D}">
+                        <File Id="fil2857722F80951A0C7598C8E6279DBBC8" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\sqlceca35.dll" />
+                    </Component>
+                    <Component Id="cmp56420E9E9626EF10824EDA8DA5F5676E" Guid="{217EAB1E-99B3-4A35-80B9-696F248A13E6}">
+                        <File Id="fil7DAAAA030DB808ACAC10BB239E0F61D6" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\sqlcecompact35.dll" />
+                    </Component>
+                    <Component Id="cmp6BA98AB3B3FE0A22732600B9F0673C6F" Guid="{2A2B3433-9247-4380-A369-D31D559B1B55}">
+                        <File Id="filF03D1D8A47EAE199786F51C8EA50FE1F" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\sqlceer35EN.dll" />
+                    </Component>
+                    <Component Id="cmp6804691CA8A2E33C99F85ED0A49A4028" Guid="{40B46925-C80A-4735-9038-6DFA7110BAEC}">
+                        <File Id="fil85F3BFE25333B32E987ACA07F2497A16" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\sqlceme35.dll" />
+                    </Component>
+                    <Component Id="cmpCF3C865C1C3D63A262792F0A723EFA6C" Guid="{35DCDB5A-B2DC-42E7-825F-22FF9C777096}">
+                        <File Id="filBE8B2051E43770E9BE0A9361330A6F81" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\sqlceoledb35.dll" />
+                    </Component>
+                    <Component Id="cmp35627EF5994E2A7C8B1DE77EC1A3B0BE" Guid="{D96B7AC3-2962-4846-9846-6C7799C90F0B}">
+                        <File Id="fil7713902F01E020AC94B9728D139EBD09" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\sqlceqp35.dll" />
+                    </Component>
+                    <Component Id="cmp4DC17827B7001753401A2CC56C6F3BFF" Guid="{8E18BE4F-5786-40DE-A756-0EDE72627B97}">
+                        <File Id="fil6AB95D6EAB296F8D4198031C17FFA048" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\sqlcese35.dll" />
+                    </Component>
+                    <Component Id="cmp99BC301370321EC7279944511A9B1202" Guid="{FCEAC600-3072-41C2-AB8B-44AFA696F364}">
+                        <File Id="fil524E75066E2939F3A8746174BC1A4B41" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\symbol.all.arm.cab" />
+                    </Component>
+                    <Component Id="cmpD0B831AA4E34D09492595D237CB8262F" Guid="{F2F15E6C-D546-4F36-B7BC-5DE3715B8801}">
+                        <File Id="filD280D9C9970B8D52709111313FE5E4CF" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\Symbol.Barcode.dll" />
+                    </Component>
+                    <Component Id="cmpA9916B4064BA5CECC1EC0A76A28AB373" Guid="{1CC75E5A-0D5A-496A-A73A-88427DC78E3B}">
+                        <File Id="filC74399A2E0E9A052F6E208D4E5823AA2" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\Symbol.Barcode.xml" />
+                    </Component>
+                    <Component Id="cmpDA1DBD20F2D4492EF4889E4D2A9C6388" Guid="{45F69CF1-2746-4916-AE66-4FFF6EA84F50}">
+                        <File Id="filAA1164FC1AB5F014CBB2143B1D2FED26" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\Symbol.dll" />
+                    </Component>
+                    <Component Id="cmp3F8190A8B87B940797B085BBD7C3E6AB" Guid="{C7298726-08E6-4395-A987-908856C918C6}">
+                        <File Id="filF7C2ECF6544C4F1C7CD111D5AEF1AD22" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\Symbol.IO.dll" />
+                    </Component>
+                    <Component Id="cmp023412B5E849EECCBF7C52A6ADB2244E" Guid="{A494C0BA-C7B6-4FDC-94D2-D98625578896}">
+                        <File Id="filE89C2FACC21677CEB66408F89DF63165" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\Symbol.IO.xml" />
+                    </Component>
+                    <Component Id="cmp90E9759224CF074059543318B7868999" Guid="{71C9F638-A785-48AB-9354-FD02BF37CE0E}">
+                        <File Id="fil73DACE12EBFE5451C2265BA9F920D742" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\Symbol.xml" />
+                    </Component>
+                    <Component Id="cmp0AEEF64E5FD91D32A20B02D67C3D91D1" Guid="{18BBE9EE-AD9D-422B-89E1-65B1EAA51A9E}">
+                        <File Id="fil26F2C4418C8AC6CFB1712E35D8F1B3B6" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\System.Data.dll" />
+                    </Component>
+                    <Component Id="cmpB4CB49980B851703A2AB509EF887DD0F" Guid="{8FD3976C-74BB-4F68-A28C-A2FC38B3FFBC}">
+                        <File Id="fil1A2D1192CE69BD31CFEB7BC538FDC2F3" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\System.Data.SqlClient.dll" />
+                    </Component>
+                    <Component Id="cmp2716F72BFA115B01EADC56313616E18A" Guid="{533601CA-17E3-441B-BC8C-106DBFAA81DA}">
+                        <File Id="fil4D6764A494B4F674BA468D4A78C75E8C" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\System.Data.SqlServerCe.dll" />
+                    </Component>
+                    <Component Id="cmp9D960392243B988E207F1552688496E3" Guid="{435BA1CA-82C9-44E3-BC46-B63C7B0430CD}">
+                        <File Id="filFE1D741224448C70268529A769AF1B1E" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\System.dll" />
+                    </Component>
+                    <Component Id="cmp0F0F3E70B37F948346536FDD4F7323D1" Guid="{600CF42D-C652-402B-ACD5-11555B5C39B6}">
+                        <File Id="filB6E126A13B055208888BA778552AE624" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\System.Drawing.dll" />
+                    </Component>
+                    <Component Id="cmp2361EF3E60B8FC507296652F0D8DD7E1" Guid="{81FBCC66-88B7-4379-B5B7-17637627667F}">
+                        <File Id="fil348A420D15BC474182DFEC492461962F" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\System.Windows.Forms.dll" />
+                    </Component>
+                    <Component Id="cmp604736A62D7123B1A7B31DF9406A777B" Guid="{6818A59D-AC6F-4BC6-A3B6-27A5D7A810F9}">
+                        <File Id="filEB5059FC668649079750FB7CFBB92F4C" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3190\System.Xml.dll" />
+                    </Component>
+                </Directory>
+                <Directory Id="dir3AB3AE9676BCBC4A17F22CEACFD75EC8" Name="symbol3200">
+                    <Component Id="cmp81CD28D7D34F966741D727F3A4E65C38" Guid="{283C6F39-238A-47C3-88FE-EAE57E8E9778}">
+                        <File Id="fil22092090B6D280B90094BA40EB2BEB11" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\Atomic.CF.dll" />
+                    </Component>
+                    <Component Id="cmpFDE4A24882B7C2DE608DA122D192C933" Guid="{59AED259-53C5-4CAB-8FBA-6550674267A3}">
+                        <File Id="fil2D73AACAEEB2048BAB85FA85A837B4A4" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\dbnetlib.dll" />
+                    </Component>
+                    <Component Id="cmp94DF0B632F1212775DC10B41963692FA" Guid="{6A76426A-160B-49E3-B11F-B7BAEAB73510}">
+                        <File Id="filC480FA2E16DDCA75B9AAA79341EA18C5" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\FTPClientCF.dll" />
+                    </Component>
+                    <Component Id="cmp1B1749A5D7FA4EA0B51B8916845104D8" Guid="{253FEA2B-5B18-4A97-B21D-45CBEACF73C1}">
+                        <File Id="fil93AD1C011EB5F4F5BE0F98BC6C150388" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\Ionic.Zip.CF.dll" />
+                    </Component>
+                    <Component Id="cmp5BAFD150AB47ED884971AE5B77239568" Guid="{6DFFF709-FE01-4D82-8F6D-EEEE4ECA075F}">
+                        <File Id="fil73B41422B8284FE0F4B841453416C7A8" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\maqs.net.lnk" />
+                    </Component>
+                    <Component Id="cmp85F37C28657B1E9C22B37F7691AF24A7" Guid="{3BE1FFDE-08E4-4E59-83A8-AAEA6736D390}">
+                        <File Id="filF880C8AEB50A3CA838F167A0154ED7ED" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\OpenNETCF.Configuration.dll" />
+                    </Component>
+                    <Component Id="cmpA15D81CA46D82D6BB3F3CD437CCB67FC" Guid="{3F618218-5B3A-4F22-B56B-84357627E1B4}">
+                        <File Id="fil21AB02B6346ABCCAB0946EAF2AE15848" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\opennetcf.data.dll" />
+                    </Component>
+                    <Component Id="cmpB525535D1244598447D67F5B3CBA7556" Guid="{29FDD741-EFF3-41AF-8A38-B4A83FE24B58}">
+                        <File Id="fil0991CF22497D97FFDBEEA1D7B55AB950" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\OpenNETCF.dll" />
+                    </Component>
+                    <Component Id="cmpD09F79634BA0CF3D83EA872DAE9A3489" Guid="{75BE285D-23A8-4700-A979-B6C959F464DC}">
+                        <File Id="filB8FC8A300607EDEE88EF4ACCD41F8B26" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\OpenNETCF.Drawing.dll" />
+                    </Component>
+                    <Component Id="cmp0344CE5753B997F9C67ED7BCE63EAF31" Guid="{BBDD771C-43D5-440D-ABCA-D8EE84686786}">
+                        <File Id="fil10CC89A16FD62C9AAAB883B63F820E56" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\OpenNETCF.Windows.Forms.dll" />
+                    </Component>
+                    <Component Id="cmp7B9219047814F138C8FD62EB0C19E90C" Guid="{B12B9592-5227-40CC-B726-154F8E1F08AA}">
+                        <File Id="fil44B746E5EBAB4BA55C7C5479AED0800A" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\OpenNETCF.WindowsCE.dll" />
+                    </Component>
+                    <Component Id="cmpB2BCFE07D2FB6FE677109B3B26D54E25" Guid="{C1635756-0B6D-4087-B002-E84613B425C9}">
+                        <File Id="fil6AB415110C2B94BA937D702E64949448" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\OpenNETCF.WindowsCE.Messaging.dll" />
+                    </Component>
+                    <Component Id="cmp44BF2D8EB922B677E0C702D8CDD47BE4" Guid="{A31DEBC2-8924-43FD-91EB-BC13C67EEBC3}">
+                        <File Id="filF8758FF3E012C675ABA1E7B09F859E63" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\sql.dev.ENU.wce5.armv4i.CAB" />
+                    </Component>
+                    <Component Id="cmp16B3362DAB3FC37E10A954C9295FBC2E" Guid="{14496EAB-1665-4E97-922A-E9F0397EB92B}">
+                        <File Id="fil618B17D70D5FE9B448CFB3517C432F91" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\sql.wce5.armv4i.CAB" />
+                    </Component>
+                    <Component Id="cmp2F0396A2C9A32BEFEA2766D0932D2582" Guid="{E07B13BE-87B0-4528-984C-4F4581997ABE}">
+                        <File Id="filC852109E8A5ABA3FE3FBF0D4D788C27F" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\sqlce.dev.ENU.wce5.armv4i.CAB" />
+                    </Component>
+                    <Component Id="cmp0C08FBFF4F0446A01644B9FC3F8AEA95" Guid="{ED853D95-4EBE-43E9-9551-2B1E4D57ABAD}">
+                        <File Id="fil97DA967ECCC609F1C5CA4D81E3A1C0A5" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\sqlce.repl.wce5.armv4i.CAB" />
+                    </Component>
+                    <Component Id="cmpE83FEDAD1A94D0EB96F4FD79BA32B0E9" Guid="{3D4F36CF-FCC3-4B55-B969-78674CB5D6CD}">
+                        <File Id="fil6AD501F239B2BDDBF4F8C9CC7F4F8D8F" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\sqlce.wce5.armv4i.CAB" />
+                    </Component>
+                    <Component Id="cmp9AEAD56BFC3CD1ABABA64D312FD7DF81" Guid="{0FDCD798-501D-40E8-87BF-9654ED80CA3F}">
+                        <File Id="fil023B8C7CE7B611DCCBC6B7F8FF5A7856" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\sqlceca35.dll" />
+                    </Component>
+                    <Component Id="cmp5FC5BE592C73588968A8FBFEC3C2F579" Guid="{CBAA1BF0-9EBE-415C-9758-12BA39694ECB}">
+                        <File Id="filFD09DC8CC8CA896B39779FD251AF7D20" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\sqlcecompact35.dll" />
+                    </Component>
+                    <Component Id="cmpEF83989819340ACC2FD4D43B14104001" Guid="{0FD52ACC-AC28-4723-BA39-45C25E12B497}">
+                        <File Id="filBB63630E5BCFB31C04EF0184B7CEF1FD" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\sqlceer35EN.dll" />
+                    </Component>
+                    <Component Id="cmp6D06D606120A0D453881B390BC7C99FE" Guid="{32A63934-842F-488B-BE6B-5D0ADC2438E1}">
+                        <File Id="fil086AC919EA8A46C228D75F95414A1F5E" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\sqlceme35.dll" />
+                    </Component>
+                    <Component Id="cmp65DDF938DE815E8A94EC6DF2BB09A4EE" Guid="{492C72D7-8D2F-40C9-9E5F-AF4C83E4D55A}">
+                        <File Id="fil7DF57C99CDA6996D605B147A4051DB76" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\sqlceoledb35.dll" />
+                    </Component>
+                    <Component Id="cmpBA077071909CE38AF39ACBF39AC74246" Guid="{A9F1ABE1-170A-4142-86D5-473DFF41752E}">
+                        <File Id="filD1952738F94FC74E3871F085A08FE32D" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\sqlceqp35.dll" />
+                    </Component>
+                    <Component Id="cmp1F41D9AE5E4116F3673645AD4B5EBDFB" Guid="{2BD92607-0A46-4754-AAA2-2C13426E5685}">
+                        <File Id="filDA212DAEE05A043355A31EAF2D14A82B" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\sqlcese35.dll" />
+                    </Component>
+                    <Component Id="cmp52D8C0E7562F246760E45053BEB67188" Guid="{0DD9AA52-320D-4712-9899-8709368DFB27}">
+                        <File Id="fil964A99992D2021F40A622325EC44ED21" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\symbol.all.arm.cab" />
+                    </Component>
+                    <Component Id="cmp77F933252D43C3F59D878F5B1423F6D5" Guid="{CBA7516A-3BF3-41F6-8126-17EE6151833F}">
+                        <File Id="fil3C760B7B774564F495FCAF20C05F7D53" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\Symbol.Barcode.dll" />
+                    </Component>
+                    <Component Id="cmpAD0F7E3EC29FB481F2CE0069B62110C9" Guid="{E5DD552B-E09E-4238-9B1F-978D41102DC7}">
+                        <File Id="fil3F157B6FC37BD8B3537CDCB61505AAAA" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\Symbol.Barcode.xml" />
+                    </Component>
+                    <Component Id="cmp847D26AA25381303AE192A81F7FED2AA" Guid="{6798F33A-9A51-40EC-B27D-DA108C92AB55}">
+                        <File Id="filC44BEF54A7F549021AE38E93E891EB4D" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\Symbol.dll" />
+                    </Component>
+                    <Component Id="cmp4258FDC641ECFBEBDF308C3F567B7216" Guid="{56D4573B-D270-4C0E-B8CC-EF6A68CE135D}">
+                        <File Id="fil7A9BBBCDDC10600057CAA8CCA6F8E1C4" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\Symbol.IO.dll" />
+                    </Component>
+                    <Component Id="cmpB4E76597A3D53C51B96CC96B6827CB52" Guid="{B6C7BE6C-506F-482C-B790-4E778466219A}">
+                        <File Id="filB01CD87F19CE0712F169BB30C216D5CA" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\Symbol.IO.xml" />
+                    </Component>
+                    <Component Id="cmpAECF57681DA9468F8AA67C1D206A023A" Guid="{4131EA68-BA26-4371-964F-626C8390D885}">
+                        <File Id="filB31CBDDBE730BB1A801FF161D6E52316" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\Symbol.xml" />
+                    </Component>
+                    <Component Id="cmpC68C1524F6C59527E1644A84826B4D4B" Guid="{766EFEDE-0FA3-48A2-913F-F75061B93842}">
+                        <File Id="fil53D7B59C551A801DDEB28D3D1881ECD2" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\System.Data.dll" />
+                    </Component>
+                    <Component Id="cmp744C6D386F75E8609E0E2E19C92737C9" Guid="{546518F9-96F6-4925-8771-AD054851A4D1}">
+                        <File Id="filDCF83FD6DCDEE545A750F3CA67A2EFB7" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\System.Data.dll.v20" />
+                    </Component>
+                    <Component Id="cmpAA164A26B98EB6AB9673EBFA8B173A66" Guid="{511A91E9-80EA-4F7B-8673-A5188AF5D701}">
+                        <File Id="filBE4704C94FB5308DF29FF24CAE4BE9BB" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\System.Data.SqlClient.dll" />
+                    </Component>
+                    <Component Id="cmp4EF52B5B18D807C8FDCDC0608D54D73A" Guid="{9E5CDA69-B92E-4C34-967A-5EC7106616EC}">
+                        <File Id="fil6DBA683A9FE3C37A5B29C9FF30392DA5" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\System.Data.SqlServerCe.dll" />
+                    </Component>
+                    <Component Id="cmpB18BF961D73AE1BB4171467AD8003B6C" Guid="{CC399A96-E4AF-4137-B6E5-7312C9458C33}">
+                        <File Id="filF0694C138F235C7614432FF270B853EB" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\System.dll" />
+                    </Component>
+                    <Component Id="cmp576A55BC7781DE560CD4F3DC09127910" Guid="{439F6AFE-75CA-4033-B62E-096301A13F0E}">
+                        <File Id="fil89F4FBFEDC3F2E007CFB262E0133A816" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\System.dll.v20" />
+                    </Component>
+                    <Component Id="cmpDDEEBB48F1133AA07AF09A57EF88A48E" Guid="{6885BAFD-4452-491B-A105-E965019A5CFA}">
+                        <File Id="fil0BA29A80BFA924CE6950A3E15539998C" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\System.Drawing.dll" />
+                    </Component>
+                    <Component Id="cmpF1F515689EDFD721AF373CCA0F63C9F4" Guid="{DFDA8366-C928-4D78-BAAB-A856516C46BC}">
+                        <File Id="fil458A59E673FD62EDB0F670BC8DB4781F" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\System.Drawing.dll.v20" />
+                    </Component>
+                    <Component Id="cmpEFEE4986A59082CA9BD7398BD2F575EB" Guid="{A637411E-9ECD-4338-BEE9-CE4FB1D6D553}">
+                        <File Id="fil793622BBB7D16578A7A89CDDF5A2F031" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\System.Windows.Forms.dll" />
+                    </Component>
+                    <Component Id="cmp782FE7484D87910F8C22EFC0D2B39267" Guid="{602500E9-AE17-4084-92D7-E7593CF2AA33}">
+                        <File Id="fil4C77020F874726776FC24D605802E004" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\System.Windows.Forms.dll.v20" />
+                    </Component>
+                    <Component Id="cmp544AF013CC99E6DB724B0E833A1DA5A9" Guid="{F2E15DC7-D667-462D-95A8-7D50A298C821}">
+                        <File Id="fil717E9830E42DE91B88761E26B6C76B24" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\System.Xml.dll" />
+                    </Component>
+                    <Component Id="cmp42C0290AF1744B965E9E0D3E8EC49972" Guid="{C744BE07-E832-42F3-931C-74F323634651}">
+                        <File Id="fil8F03F022F86CC5B07C545D51914ED901" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\System.Xml.dll.v20" />
+                    </Component>
+                    <Directory Id="dir221A71B72874D09BCA1EFDA2387074F3" Name="Microsoft SQL Server Compact Edition">
+                        <Directory Id="dir68D4A206ABC8E08171871BF3E2601ADF" Name="v3.5">
+                            <Component Id="cmp80C70F5317273023172427A1F96B16CC" Guid="{0C3B14DD-549E-4362-8B52-2D19C9B2D417}">
+                                <File Id="fil9C1BC65E594298A15C579260A4FA34B3" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\Microsoft SQL Server Compact Edition\v3.5\sqlceca35.dll" />
+                            </Component>
+                            <Component Id="cmp74D8FAB875D1F72CADC47F83F4BCB9A1" Guid="{E9EC5F1C-0E9E-446D-88BF-1CA3723B3E76}">
+                                <File Id="fil701A43832018E831B300609A9BFFDFF2" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\Microsoft SQL Server Compact Edition\v3.5\sqlcecompact35.dll" />
+                            </Component>
+                            <Component Id="cmp79F7E0A6C4C164D0E7CFE87E341AD9B0" Guid="{0A984110-A2B1-4C7A-9FE8-38C574023717}">
+                                <File Id="filADCC7E770A34EE33DD9487040938E7F1" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\Microsoft SQL Server Compact Edition\v3.5\sqlceer35EN.dll" />
+                            </Component>
+                            <Component Id="cmp28591501C9DBF2D8B6F303A70640AA5B" Guid="{AE8015E4-5231-4936-A4C4-FB7B9EABFCBC}">
+                                <File Id="filCE3D36B5AFF642C18AB5687F3606E146" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\Microsoft SQL Server Compact Edition\v3.5\sqlceme35.dll" />
+                            </Component>
+                            <Component Id="cmp379BC74A4628462FBC1BB3859253E000" Guid="{A0A08A5F-7B8D-4F12-9C4C-996D7F5A6D6D}">
+                                <File Id="fil40170450ECECDCD644F5776DC67DF673" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\Microsoft SQL Server Compact Edition\v3.5\sqlceoledb35.dll" />
+                            </Component>
+                            <Component Id="cmp6AF7BAFB2CF5109BD5E4CE1FAB03B78D" Guid="{F2574C57-2F62-4058-859B-5705440C0470}">
+                                <File Id="filF1C68CF9127E13301EAE68418AE7F4A1" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\Microsoft SQL Server Compact Edition\v3.5\sqlceqp35.dll" />
+                            </Component>
+                            <Component Id="cmp324ABEAB42D810FF172C7B86848D513E" Guid="{7DCAD22D-40DD-4835-A2B4-D0EB24B5503B}">
+                                <File Id="filDB46306F9A749E44DB6E2DEF5C1CE968" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\Microsoft SQL Server Compact Edition\v3.5\sqlcese35.dll" />
+                            </Component>
+                            <Directory Id="dir55AFD9186CDDF929E6016B51EC67AD2D" Name="EN">
+                                <Component Id="cmpAC9A76574ECDDCCF13C0D477894224FF" Guid="{1374D21C-DCDB-47B4-9BF7-6DD0E686D42A}">
+                                    <File Id="fil22C338EFCF8B015C3F698490316AAFE2" KeyPath="yes" Source="SourceDir\ceinstaller\symbol3200\Microsoft SQL Server Compact Edition\v3.5\EN\isqlw35.exe" />
+                                </Component>
+                            </Directory>
+                        </Directory>
+                    </Directory>
+                </Directory>
+            </Directory>
+            <Directory Id="dir91D76F319D6BAD855A56B7A48AD71EFF" Name="support">
+                <Component Id="cmpBE95F5E3AE21E3FF4CBDBA90A7F8232A" Guid="{8488EB57-9C36-474E-A36E-A7FC4BC6E055}">
+                    <File Id="fil4587198150D0CEF8CA67B345929AE26F" KeyPath="yes" Source="SourceDir\support\CEInstaller.exe" />
+                </Component>
+                <Component Id="cmp69619095BE1BA9EA2C1A8C9D0E12C506" Guid="{7E523C05-BF56-48F1-8CBE-CB2ED3555CCE}">
+                    <File Id="filCD3C1DC3FC9C4187DA510E2FC69E725C" KeyPath="yes" Source="SourceDir\support\CEInstaller.ini" />
+                </Component>
+                <Component Id="cmp76CF5EFF99CA9190EE05A426FE6DDB3B" Guid="{693C205B-783A-4862-A7E2-B23EA10AC7DA}">
+                    <File Id="fil0C9AD8B3395AB2C718AB428F714C87CE" KeyPath="yes" Source="SourceDir\support\MaQS.ARMV4.cab" />
+                </Component>
+                <Component Id="cmpCF57EEE60BB17D79625B60D6849CF6C6" Guid="{56B297B4-7E7E-4A18-830C-E10BB56BF2AA}">
+                    <File Id="fil6ACBB652CD9B885825AB29CA9ADF74E1" KeyPath="yes" Source="SourceDir\support\maqs.net.lnk" />
+                </Component>
+                <Component Id="cmp67F6736D226C40FE4EFAC003384370C6" Guid="{7B5D15A6-7188-4DC3-B30B-B38C70315339}">
+                    <File Id="fil9D9A8DDC0E4ACEB2970091C513AC6900" KeyPath="yes" Source="SourceDir\support\netcf.all.wce4.ARMV4.cab" />
+                </Component>
+                <Component Id="cmp31C3BD6B4CABBDC342C06D4FF76B4391" Guid="{562E46EA-3D2A-42D1-9FC0-BF11242D46BB}">
+                    <File Id="fil13420A9785A34D05BF61D6DEBB62DB37" KeyPath="yes" Source="SourceDir\support\opennetcf.sdf.ppc3.ARMV4.cab" />
+                </Component>
+                <Component Id="cmpBC68772F6F9983E783B9EF9B759C91A8" Guid="{118FB949-7222-40F0-BE6F-9054F64D0379}">
+                    <File Id="fil073B7A9C919FB6A9F16C2C6FEDC700D0" KeyPath="yes" Source="SourceDir\support\opennetcf.sdf.wce4.ARMV4.cab" />
+                </Component>
+                <Component Id="cmpD03FA10864FC391CA8774552473BF896" Guid="{AED392B1-3414-43DB-8865-8471A09CC985}">
+                    <File Id="fil4CACE08CF735222F229745BEA8522F30" KeyPath="yes" Source="SourceDir\support\pds.ini" />
+                </Component>
+            </Directory>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="maqsfiles">
+            <ComponentRef Id="cmp2743827FF011F50C03C9173F108CC5A8" />
+            <ComponentRef Id="cmp2F33AEAC067A74656430962655070B4F" />
+            <ComponentRef Id="cmp8CB5E7466278F9E6D539EFA14C358526" />
+            <ComponentRef Id="cmpF8231874DBC3C7444923143EAFF76D29" />
+            <ComponentRef Id="cmpAF339E45663E9E476C3BE7A9A4296EB5" />
+            <ComponentRef Id="cmp672A47808E7B133FD7C4BD5076D5DA03" />
+            <ComponentRef Id="cmp71507697567CA1B6E5209D369A58B0C7" />
+            <ComponentRef Id="cmp30CBD3D183BEA5AA7547AD275829A1DF" />
+            <ComponentRef Id="cmpACD3027977C4067920776F44C54123C8" />
+            <ComponentRef Id="cmp29283BA120E2D41C408E2B569ED72874" />
+            <ComponentRef Id="cmp8D8B4341992CA596CA78E1BC886F3D02" />
+            <ComponentRef Id="cmp9AEA5E738B98E3B3BC321C94E3F892B5" />
+            <ComponentRef Id="cmp95DFA2BC7A464CDBA1C4B64011D27C27" />
+            <ComponentRef Id="cmp98434204B339D81F6D93F18745C23BC7" />
+            <ComponentRef Id="cmp6AC61007F07C7E1D05A59E442107B824" />
+            <ComponentRef Id="cmpCA1088622B0547471438C315BC8B80B1" />
+            <ComponentRef Id="cmp62A26BBC9DFBB017D3C82CDFC8A7D0CA" />
+            <ComponentRef Id="cmpFD89C0D97DCAB63C165B1A3C017C81C0" />
+            <ComponentRef Id="cmp2B3356BBC516D722D6AF5A19ECC8F4B8" />
+            <ComponentRef Id="cmp8C4F699132AAA976759D061886468FDD" />
+            <ComponentRef Id="cmpB137625B6B23852052C5853D810379F2" />
+            <ComponentRef Id="cmp3D057E84006917A6163096BAF1275200" />
+            <ComponentRef Id="cmp91F19AD880E5D32E799A09395B4FBFFB" />
+            <ComponentRef Id="cmpC53F316F3BAA5C6F5EEBA594A2C79242" />
+            <ComponentRef Id="cmpCB0816E45C361384529F162DCACFCCF8" />
+            <ComponentRef Id="cmp79DE5A98541CCD15BE113E25A19EB53A" />
+            <ComponentRef Id="cmpA71B4EC5012C86123176BA520AB56A26" />
+            <ComponentRef Id="cmp2F933C701EDB3B4F277D0E1BD7C2276C" />
+            <ComponentRef Id="cmpA3C04669BD3C9DB79ADEB873ED5050BB" />
+            <ComponentRef Id="cmp0FFCD276C3E93BFAA32C8D01F9B13F4E" />
+            <ComponentRef Id="cmp3F3FC74B2D2D6D54C3B57D6DF02041F3" />
+            <ComponentRef Id="cmp89BCA6A483AF53CA89B7512F9F270751" />
+            <ComponentRef Id="cmp1237EC6C8E716D8E150242037D33CE37" />
+            <ComponentRef Id="cmp5024D5335B18CBA4810C1E3CBED4387E" />
+            <ComponentRef Id="cmpA8B5D8BF6ED255D69E43314AA7D1D387" />
+            <ComponentRef Id="cmpEF5CA4EB8A47EF7E6A5DE4ECBFAE2984" />
+            <ComponentRef Id="cmp0542A189A2E4EA2B973DCB2B1B31D1B7" />
+            <ComponentRef Id="cmp32FF321659375224AC165856BE0A152A" />
+            <ComponentRef Id="cmp2F534C5F392CFE4E8A7B249867DF0B42" />
+            <ComponentRef Id="cmp6B7F88BE7E0A8D0CEB1A0236FE631C1A" />
+            <ComponentRef Id="cmp0B73FAA13283627148E2AF696156D5F9" />
+            <ComponentRef Id="cmpD78172F4AABE488AA7B18B04FA6114A1" />
+            <ComponentRef Id="cmp6660566052D6F808F50D386E9AA9EA06" />
+            <ComponentRef Id="cmp1494AD8C6F17DCA3FFCC570B4BDCE8A1" />
+            <ComponentRef Id="cmp4425768A607D32BDE63B207D2CAB9905" />
+            <ComponentRef Id="cmp00FB0A5EA95D2BA9B10A8DAA145C20B7" />
+            <ComponentRef Id="cmp241DA4605ED9E6C39E0B23063AC8CC53" />
+            <ComponentRef Id="cmpE0EC8CE0857AF8023364B6B37799C42C" />
+            <ComponentRef Id="cmp52B7886C0AD3E8E77A152DFF95C3BFF0" />
+            <ComponentRef Id="cmp8316A1C402B3C965E945F47E885B2C6C" />
+            <ComponentRef Id="cmpB8E4D6650F545A00854637C959211759" />
+            <ComponentRef Id="cmp8D6A54A7494CC2BB3FB858F758C2EA26" />
+            <ComponentRef Id="cmp8A65D1DD666ADE0CEFA390FBB05D7415" />
+            <ComponentRef Id="cmpA44B9A9CF2CE01790ED4521C326E6472" />
+            <ComponentRef Id="cmp0763F068EA97F5F3B5080C1D9C614158" />
+            <ComponentRef Id="cmp5599D0B8BD5A5DF7F9A4F14E7038B6B5" />
+            <ComponentRef Id="cmp107882F74CB24C5F9FB4417710C30483" />
+            <ComponentRef Id="cmpA405DC6D804E7601C3E3804071E23065" />
+            <ComponentRef Id="cmp8F86B67A35F8D42CA1194A83FAA52402" />
+            <ComponentRef Id="cmp625973F684AE35A3DF230FAD291D557A" />
+            <ComponentRef Id="cmp6EAFC3111208E37ACA0E412E5D35DA3A" />
+            <ComponentRef Id="cmpD4EE7D2CA9A30D3B47DE2CC7529F2795" />
+            <ComponentRef Id="cmp001B0A13A04978C2F1793490F70D51AE" />
+            <ComponentRef Id="cmp2F710EF102D1B57FB3A521CD886EB8A3" />
+            <ComponentRef Id="cmpABC0AA396527CDDC0561EF4A645BA95C" />
+            <ComponentRef Id="cmp1B3B8ABA4CB3C4C8B5617AEC9F5C2090" />
+            <ComponentRef Id="cmp63361A198B0EE30DE8DC835BA1EF38C5" />
+            <ComponentRef Id="cmp5D1BBFF307B27B538C8B2E7EE610E0F2" />
+            <ComponentRef Id="cmp1814246E47B2A3A138F64D50D46F7FFC" />
+            <ComponentRef Id="cmp1E2FBD082D3FF946985AB55257766AB0" />
+            <ComponentRef Id="cmpA97FB94E3B8A355FDDD64C67E3C25BAA" />
+            <ComponentRef Id="cmpA35CB707A8C883A0DF0A2482FE66A673" />
+            <ComponentRef Id="cmp09B2FCCFB541421E41AA7E67BC44D921" />
+            <ComponentRef Id="cmp2867156A8D61C4BBD13098830A8432A8" />
+            <ComponentRef Id="cmpD3036C793777B0D663ABCE6CF6C5DFD2" />
+            <ComponentRef Id="cmpA01637FE2D86FACFDE5F7493D98F3579" />
+            <ComponentRef Id="cmp3DABCD01EA204B54143E986736EEB37E" />
+            <ComponentRef Id="cmpC2DAAD2F1DEC87B8E1B360FB8DAED807" />
+            <ComponentRef Id="cmpDB57F4416E16B2A9007847D1D01F1074" />
+            <ComponentRef Id="cmp39AD50FDC1D81EBF3CB91958C8F06FEB" />
+            <ComponentRef Id="cmpF0271479455581D6C21A8669B1C9CFE2" />
+            <ComponentRef Id="cmp2B47BD7CD87D030B1B1782E64431C253" />
+            <ComponentRef Id="cmp1C5F4DDC821DE28BDEDC0CF7F061EC41" />
+            <ComponentRef Id="cmp936AF1666B3662A73249972CC1178E93" />
+            <ComponentRef Id="cmp068FEFB73E5770CD7ED8D379529021F7" />
+            <ComponentRef Id="cmp9975D18A5C0033D7E3EC8AEB4E71F39E" />
+            <ComponentRef Id="cmpD7C971B32785483EF296FA25748CD542" />
+            <ComponentRef Id="cmp30FA45DA65647C446AC4AE7E4AA088FF" />
+            <ComponentRef Id="cmp6C94A6892FA03B19368E2ABF7DC5EBD1" />
+            <ComponentRef Id="cmp89CCFF9EF6EE1A868704282B0B192973" />
+            <ComponentRef Id="cmpFBDD13A9C57D591127123DCB2D7452D6" />
+            <ComponentRef Id="cmpB55180A39C135B81AED81ED0AC500A9E" />
+            <ComponentRef Id="cmp532C89358D0897A11EEA48B5297F40F9" />
+            <ComponentRef Id="cmp6B1E55E27F6BCE4CDFA9899A35A84AD8" />
+            <ComponentRef Id="cmpFFC2933E12C74B91BA0F97F8B07AEE83" />
+            <ComponentRef Id="cmpFAD78F52A0D0367A85FAC4BECD6D8726" />
+            <ComponentRef Id="cmp59D044C665B87B5D53D370923D3D6AA1" />
+            <ComponentRef Id="cmpEBBEF6771CB0853816106DF84E387B75" />
+            <ComponentRef Id="cmpDB1E216BA5BC74D6062BA145ABFCB8A1" />
+            <ComponentRef Id="cmp65B2CBB138B112A7406E350F86271BE8" />
+            <ComponentRef Id="cmp8DB012325707870AB4C5F46F4A631E4B" />
+            <ComponentRef Id="cmp2C462F89A844D87A959B1082C6864165" />
+            <ComponentRef Id="cmp6DA262F758996340167BCB7E742762D6" />
+            <ComponentRef Id="cmp4FD19B71F63205DA318E432B275A52F0" />
+            <ComponentRef Id="cmp700432819BF56CEC82EF779D43A3CC4B" />
+            <ComponentRef Id="cmpED8AE9F58CB2928A4F3078321320EA41" />
+            <ComponentRef Id="cmp6E4790CB5A2F2CDE7DCFEDAFFA0C6AB7" />
+            <ComponentRef Id="cmp78E2E1A5BB057F8F9B324214B5B0032C" />
+            <ComponentRef Id="cmpD621CFE760D1A4E1C9D84E8BD3C8FD45" />
+            <ComponentRef Id="cmp7ED08C63946ECCF97C78A0157121E946" />
+            <ComponentRef Id="cmp797C65F5B491CD203F65396A961199FC" />
+            <ComponentRef Id="cmp859F01B9F89F0BCFD6BDA5ABE2AEF50D" />
+            <ComponentRef Id="cmp1396A69CB53505FD18D7F919975CCED2" />
+            <ComponentRef Id="cmp0BBDDFCA24E290C0E37569316B8308EA" />
+            <ComponentRef Id="cmpFEC9B86E9254A0C28B1D5A949C417104" />
+            <ComponentRef Id="cmp00D41546C51CFB3B7EF20376F5E4D71A" />
+            <ComponentRef Id="cmp5BC4CCF5C4312BF914F01E63E24C5798" />
+            <ComponentRef Id="cmpEF1B53EE61E1D46B10E65310E8FBC382" />
+            <ComponentRef Id="cmpF94EFF213B7F60CEF6E87D216C1194ED" />
+            <ComponentRef Id="cmpA56CEE9C233855705CEB0A24AD9C1CB7" />
+            <ComponentRef Id="cmp6DB0DB8861C792C15787108A1C4BEBA2" />
+            <ComponentRef Id="cmpF363DEC6AF4CFE0AEF0A063205726B0A" />
+            <ComponentRef Id="cmp24DF568234D6577D7FDCC10B3DA484FE" />
+            <ComponentRef Id="cmp25258E551D45EDD16345962C3AEA6E97" />
+            <ComponentRef Id="cmp69C9907D836ABC350DA543562C1D637E" />
+            <ComponentRef Id="cmp0E1FE0B3E49EB272526D4FE3A376C312" />
+            <ComponentRef Id="cmp7B371FDFCC83F65B937ED89185ED44EA" />
+            <ComponentRef Id="cmpABAB91A504EB704D7798EB2B17DA38FF" />
+            <ComponentRef Id="cmp47E8BA81197C785FCDE1F24D45A3AF16" />
+            <ComponentRef Id="cmp63CBCCA51747FBD154911565C431571D" />
+            <ComponentRef Id="cmpC52FCB48CBEC1C157927C5FE71E27C9D" />
+            <ComponentRef Id="cmp5353C950AA4655E7A6C64981FA48319E" />
+            <ComponentRef Id="cmp3D402B025ACAC4B5C5AF5DE1F4B8085D" />
+            <ComponentRef Id="cmpD8665FEB5C99A505AEC41EBCB749B9DE" />
+            <ComponentRef Id="cmp4005B4CAA5075148BE0F429C2239D778" />
+            <ComponentRef Id="cmpD8775B0C9A1E04A3116BFFA78A66B89A" />
+            <ComponentRef Id="cmpBDFB2F48D32F5B14229BB289D4AA82BC" />
+            <ComponentRef Id="cmpCC84395C2565555732773A4EF81D5B7A" />
+            <ComponentRef Id="cmpE529FD8179C388913E28755BE6994C09" />
+            <ComponentRef Id="cmpE3B5A3AE3D735C032C0BB44AAF72E1E3" />
+            <ComponentRef Id="cmp3859D0F3C94784456600F7FACBFAA5ED" />
+            <ComponentRef Id="cmpD01D10AA6319A1ACE7F38CA75932C28A" />
+            <ComponentRef Id="cmp67B3F5E04D41B643889F236E8E7CCAE5" />
+            <ComponentRef Id="cmp7666A51635D50564291F96713DAB7D72" />
+            <ComponentRef Id="cmp1047B5F8A0BB78CAC062AC5F05298E1F" />
+            <ComponentRef Id="cmp09257B1E5C1CB059B8C015F91B6FFD2C" />
+            <ComponentRef Id="cmp04DA9A7246C2B019B633A5BBE2B3F789" />
+            <ComponentRef Id="cmp3A0BDB6E8180C8FF8E221B0142734B34" />
+            <ComponentRef Id="cmp98EA64E1B6F8B5EE283E4C47136F8055" />
+            <ComponentRef Id="cmp54250ACE1086F31FC13C3B692894E7EC" />
+            <ComponentRef Id="cmp337E5F2FBE2288A78A9A15515058BF87" />
+            <ComponentRef Id="cmpF6217C66AF9689EB051F11F2FAD05D63" />
+            <ComponentRef Id="cmpD151AFDA4162E8758D35F12C4ED78B00" />
+            <ComponentRef Id="cmp595DB10C2BA4002E6320AEFFC875F724" />
+            <ComponentRef Id="cmp0B64FABD1365A518402CBCEDA3A13374" />
+            <ComponentRef Id="cmp2ADFC311A491ECD56059CC1472A6E9C4" />
+            <ComponentRef Id="cmp4044285B99BF2AF3059C2882087477DC" />
+            <ComponentRef Id="cmp4F60D400D707F488A06D74E28FF54F22" />
+            <ComponentRef Id="cmp56420E9E9626EF10824EDA8DA5F5676E" />
+            <ComponentRef Id="cmp6BA98AB3B3FE0A22732600B9F0673C6F" />
+            <ComponentRef Id="cmp6804691CA8A2E33C99F85ED0A49A4028" />
+            <ComponentRef Id="cmpCF3C865C1C3D63A262792F0A723EFA6C" />
+            <ComponentRef Id="cmp35627EF5994E2A7C8B1DE77EC1A3B0BE" />
+            <ComponentRef Id="cmp4DC17827B7001753401A2CC56C6F3BFF" />
+            <ComponentRef Id="cmp99BC301370321EC7279944511A9B1202" />
+            <ComponentRef Id="cmpD0B831AA4E34D09492595D237CB8262F" />
+            <ComponentRef Id="cmpA9916B4064BA5CECC1EC0A76A28AB373" />
+            <ComponentRef Id="cmpDA1DBD20F2D4492EF4889E4D2A9C6388" />
+            <ComponentRef Id="cmp3F8190A8B87B940797B085BBD7C3E6AB" />
+            <ComponentRef Id="cmp023412B5E849EECCBF7C52A6ADB2244E" />
+            <ComponentRef Id="cmp90E9759224CF074059543318B7868999" />
+            <ComponentRef Id="cmp0AEEF64E5FD91D32A20B02D67C3D91D1" />
+            <ComponentRef Id="cmpB4CB49980B851703A2AB509EF887DD0F" />
+            <ComponentRef Id="cmp2716F72BFA115B01EADC56313616E18A" />
+            <ComponentRef Id="cmp9D960392243B988E207F1552688496E3" />
+            <ComponentRef Id="cmp0F0F3E70B37F948346536FDD4F7323D1" />
+            <ComponentRef Id="cmp2361EF3E60B8FC507296652F0D8DD7E1" />
+            <ComponentRef Id="cmp604736A62D7123B1A7B31DF9406A777B" />
+            <ComponentRef Id="cmp81CD28D7D34F966741D727F3A4E65C38" />
+            <ComponentRef Id="cmpFDE4A24882B7C2DE608DA122D192C933" />
+            <ComponentRef Id="cmp94DF0B632F1212775DC10B41963692FA" />
+            <ComponentRef Id="cmp1B1749A5D7FA4EA0B51B8916845104D8" />
+            <ComponentRef Id="cmp5BAFD150AB47ED884971AE5B77239568" />
+            <ComponentRef Id="cmp85F37C28657B1E9C22B37F7691AF24A7" />
+            <ComponentRef Id="cmpA15D81CA46D82D6BB3F3CD437CCB67FC" />
+            <ComponentRef Id="cmpB525535D1244598447D67F5B3CBA7556" />
+            <ComponentRef Id="cmpD09F79634BA0CF3D83EA872DAE9A3489" />
+            <ComponentRef Id="cmp0344CE5753B997F9C67ED7BCE63EAF31" />
+            <ComponentRef Id="cmp7B9219047814F138C8FD62EB0C19E90C" />
+            <ComponentRef Id="cmpB2BCFE07D2FB6FE677109B3B26D54E25" />
+            <ComponentRef Id="cmp44BF2D8EB922B677E0C702D8CDD47BE4" />
+            <ComponentRef Id="cmp16B3362DAB3FC37E10A954C9295FBC2E" />
+            <ComponentRef Id="cmp2F0396A2C9A32BEFEA2766D0932D2582" />
+            <ComponentRef Id="cmp0C08FBFF4F0446A01644B9FC3F8AEA95" />
+            <ComponentRef Id="cmpE83FEDAD1A94D0EB96F4FD79BA32B0E9" />
+            <ComponentRef Id="cmp9AEAD56BFC3CD1ABABA64D312FD7DF81" />
+            <ComponentRef Id="cmp5FC5BE592C73588968A8FBFEC3C2F579" />
+            <ComponentRef Id="cmpEF83989819340ACC2FD4D43B14104001" />
+            <ComponentRef Id="cmp6D06D606120A0D453881B390BC7C99FE" />
+            <ComponentRef Id="cmp65DDF938DE815E8A94EC6DF2BB09A4EE" />
+            <ComponentRef Id="cmpBA077071909CE38AF39ACBF39AC74246" />
+            <ComponentRef Id="cmp1F41D9AE5E4116F3673645AD4B5EBDFB" />
+            <ComponentRef Id="cmp52D8C0E7562F246760E45053BEB67188" />
+            <ComponentRef Id="cmp77F933252D43C3F59D878F5B1423F6D5" />
+            <ComponentRef Id="cmpAD0F7E3EC29FB481F2CE0069B62110C9" />
+            <ComponentRef Id="cmp847D26AA25381303AE192A81F7FED2AA" />
+            <ComponentRef Id="cmp4258FDC641ECFBEBDF308C3F567B7216" />
+            <ComponentRef Id="cmpB4E76597A3D53C51B96CC96B6827CB52" />
+            <ComponentRef Id="cmpAECF57681DA9468F8AA67C1D206A023A" />
+            <ComponentRef Id="cmpC68C1524F6C59527E1644A84826B4D4B" />
+            <ComponentRef Id="cmp744C6D386F75E8609E0E2E19C92737C9" />
+            <ComponentRef Id="cmpAA164A26B98EB6AB9673EBFA8B173A66" />
+            <ComponentRef Id="cmp4EF52B5B18D807C8FDCDC0608D54D73A" />
+            <ComponentRef Id="cmpB18BF961D73AE1BB4171467AD8003B6C" />
+            <ComponentRef Id="cmp576A55BC7781DE560CD4F3DC09127910" />
+            <ComponentRef Id="cmpDDEEBB48F1133AA07AF09A57EF88A48E" />
+            <ComponentRef Id="cmpF1F515689EDFD721AF373CCA0F63C9F4" />
+            <ComponentRef Id="cmpEFEE4986A59082CA9BD7398BD2F575EB" />
+            <ComponentRef Id="cmp782FE7484D87910F8C22EFC0D2B39267" />
+            <ComponentRef Id="cmp544AF013CC99E6DB724B0E833A1DA5A9" />
+            <ComponentRef Id="cmp42C0290AF1744B965E9E0D3E8EC49972" />
+            <ComponentRef Id="cmp80C70F5317273023172427A1F96B16CC" />
+            <ComponentRef Id="cmp74D8FAB875D1F72CADC47F83F4BCB9A1" />
+            <ComponentRef Id="cmp79F7E0A6C4C164D0E7CFE87E341AD9B0" />
+            <ComponentRef Id="cmp28591501C9DBF2D8B6F303A70640AA5B" />
+            <ComponentRef Id="cmp379BC74A4628462FBC1BB3859253E000" />
+            <ComponentRef Id="cmp6AF7BAFB2CF5109BD5E4CE1FAB03B78D" />
+            <ComponentRef Id="cmp324ABEAB42D810FF172C7B86848D513E" />
+            <ComponentRef Id="cmpAC9A76574ECDDCCF13C0D477894224FF" />
+            <ComponentRef Id="cmpBE95F5E3AE21E3FF4CBDBA90A7F8232A" />
+            <ComponentRef Id="cmp69619095BE1BA9EA2C1A8C9D0E12C506" />
+            <ComponentRef Id="cmp76CF5EFF99CA9190EE05A426FE6DDB3B" />
+            <ComponentRef Id="cmpCF57EEE60BB17D79625B60D6849CF6C6" />
+            <ComponentRef Id="cmp67F6736D226C40FE4EFAC003384370C6" />
+            <ComponentRef Id="cmp31C3BD6B4CABBDC342C06D4FF76B4391" />
+            <ComponentRef Id="cmpBC68772F6F9983E783B9EF9B759C91A8" />
+            <ComponentRef Id="cmpD03FA10864FC391CA8774552473BF896" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>

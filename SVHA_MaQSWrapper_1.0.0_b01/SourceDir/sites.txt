@@ -1,0 +1,8 @@
+GBH                 Griffith Base Hospital                            N
+SVPCHG              Griffith St Vincent Community Hospital            N
+MAIN                Main Hospital Site                                N
+MATER               Mater Misericordiae                               N
+STV                 St Vincents Private                               N
+STVTSU              St Vincents Private TSU                           N
+STVPH               St Vincents Public Hospital                       N
+SVH                 St Vincents Public Hospital                       N

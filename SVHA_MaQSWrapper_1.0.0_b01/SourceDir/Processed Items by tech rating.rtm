@@ -1,0 +1,967 @@
+object pReport: TppReport
+  AutoStop = False
+  DataPipeline = daADOQueryDataView1.processed_items
+  PassSetting = psTwoPass
+  PrinterSetup.BinName = 'Default'
+  PrinterSetup.DocumentName = 'Processing by Weighting'
+  PrinterSetup.PaperName = 'A4'
+  PrinterSetup.PrinterName = 'Default'
+  PrinterSetup.mmMarginBottom = 15000
+  PrinterSetup.mmMarginLeft = 15000
+  PrinterSetup.mmMarginRight = 15000
+  PrinterSetup.mmMarginTop = 15000
+  PrinterSetup.mmPaperHeight = 297127
+  PrinterSetup.mmPaperWidth = 209815
+  PrinterSetup.PaperSize = 9
+  SaveAsTemplate = True
+  Template.DatabaseSettings.DataPipeline = plItem
+  Template.DatabaseSettings.Name = '15-06 Processed Items by Technical Rating'
+  Template.DatabaseSettings.NameField = 'item_name'
+  Template.DatabaseSettings.TemplateField = 'template'
+  Template.FileName = 'E:\St Vincents Reports\Processed Items by tech rating.rtm'
+  Template.Format = ftASCII
+  Units = utMillimeters
+  AllowPrintToFile = True
+  DeviceType = 'Screen'
+  OnGetAutoSearchValues = pReportGetAutoSearchValues
+  OutlineSettings.CreateNode = True
+  OutlineSettings.CreatePageNodes = True
+  OutlineSettings.Enabled = False
+  OutlineSettings.Visible = True
+  PreviewFormSettings.WindowState = wsMaximized
+  PreviewFormSettings.ZoomSetting = zs100Percent
+  ShowAutoSearchDialog = True
+  TextSearchSettings.DefaultString = '<FindText>'
+  TextSearchSettings.Enabled = False
+  Left = 208
+  Top = 56
+  Version = '9.02'
+  mmColumnWidth = 179815
+  DataPipelineName = 'processed_items'
+  object ppHeaderBand1: TppHeaderBand
+    Save = True
+    mmBottomOffset = 0
+    mmHeight = 30163
+    mmPrintPosition = 0
+    object ppDBText1: TppDBText
+      UserName = 'DBText1'
+      Border.BorderPositions = []
+      Border.Color = clBlack
+      Border.Style = psSolid
+      Border.Visible = False
+      Border.Weight = 1.000000000000000000
+      DataField = 'company'
+      DataPipeline = daADOQueryDataView2.system_information
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = []
+      ParentDataPipeline = False
+      TextAlignment = taCentered
+      Transparent = True
+      DataPipelineName = 'system_information'
+      mmHeight = 3969
+      mmLeft = 1323
+      mmTop = 1058
+      mmWidth = 176477
+      BandType = 0
+    end
+    object ppLabel1: TppLabel
+      UserName = 'Label1'
+      AutoSize = False
+      Border.BorderPositions = []
+      Border.Color = clBlack
+      Border.Style = psSolid
+      Border.Visible = False
+      Border.Weight = 1.000000000000000000
+      Caption = 'Processed Items by Technical Rating'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 14
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 1588
+      mmTop = 6879
+      mmWidth = 176213
+      BandType = 0
+    end
+    object ppLabel2: TppLabel
+      UserName = 'Label2'
+      SaveOrder = 0
+      Save = True
+      Border.BorderPositions = []
+      Border.Color = clBlack
+      Border.Style = psSolid
+      Border.Visible = False
+      Border.Weight = 1.000000000000000000
+      Caption = 'Techn. Rating'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 4498
+      mmLeft = 2117
+      mmTop = 23283
+      mmWidth = 23283
+      BandType = 0
+    end
+    object ppLabel3: TppLabel
+      UserName = 'Label3'
+      SaveOrder = 1
+      Save = True
+      Border.BorderPositions = []
+      Border.Color = clBlack
+      Border.Style = psSolid
+      Border.Visible = False
+      Border.Weight = 1.000000000000000000
+      Caption = 'Name'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 4498
+      mmLeft = 27517
+      mmTop = 23283
+      mmWidth = 9525
+      BandType = 0
+    end
+    object ppLabel4: TppLabel
+      UserName = 'Label4'
+      SaveOrder = 2
+      Save = True
+      Border.BorderPositions = []
+      Border.Color = clBlack
+      Border.Style = psSolid
+      Border.Visible = False
+      Border.Weight = 1.000000000000000000
+      Caption = 'No of Items'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      TextAlignment = taRightJustified
+      Transparent = True
+      mmHeight = 4233
+      mmLeft = 108215
+      mmTop = 24077
+      mmWidth = 19315
+      BandType = 0
+    end
+    object ppLabel5: TppLabel
+      UserName = 'Label5'
+      SaveOrder = 4
+      Save = True
+      Border.BorderPositions = []
+      Border.Color = clBlack
+      Border.Style = psSolid
+      Border.Visible = False
+      Border.Weight = 1.000000000000000000
+      Caption = 'Total Cost'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      TextAlignment = taRightJustified
+      Transparent = True
+      mmHeight = 4233
+      mmLeft = 145786
+      mmTop = 24077
+      mmWidth = 17463
+      BandType = 0
+    end
+    object ppLabel6: TppLabel
+      UserName = 'Label6'
+      SaveOrder = 3
+      Save = True
+      Border.BorderPositions = []
+      Border.Color = clBlack
+      Border.Style = psSolid
+      Border.Visible = False
+      Border.Weight = 1.000000000000000000
+      Caption = 'No %'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      TextAlignment = taRightJustified
+      Transparent = True
+      mmHeight = 4233
+      mmLeft = 131498
+      mmTop = 24077
+      mmWidth = 8731
+      BandType = 0
+    end
+    object ppLabel7: TppLabel
+      UserName = 'Label7'
+      SaveOrder = 5
+      Save = True
+      Border.BorderPositions = []
+      Border.Color = clBlack
+      Border.Style = psSolid
+      Border.Visible = False
+      Border.Weight = 1.000000000000000000
+      Caption = 'Cost %'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      TextAlignment = taRightJustified
+      Transparent = True
+      mmHeight = 4233
+      mmLeft = 165894
+      mmTop = 24077
+      mmWidth = 11906
+      BandType = 0
+    end
+    object ppLine1: TppLine
+      UserName = 'Line1'
+      Border.BorderPositions = []
+      Border.Color = clBlack
+      Border.Style = psSolid
+      Border.Visible = False
+      Border.Weight = 1.000000000000000000
+      ParentWidth = True
+      Position = lpBottom
+      Weight = 0.750000000000000000
+      mmHeight = 2117
+      mmLeft = 0
+      mmTop = 27517
+      mmWidth = 179815
+      BandType = 0
+    end
+    object ppMemo1: TppMemo
+      UserName = 'Memo1'
+      Border.BorderPositions = []
+      Border.Color = clBlack
+      Border.Style = psSolid
+      Border.Visible = False
+      Border.Weight = 1.000000000000000000
+      Caption = 'Memo1'
+      CharWrap = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = [fsItalic]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 9525
+      mmLeft = 2117
+      mmTop = 13229
+      mmWidth = 175948
+      BandType = 0
+      mmBottomOffset = 0
+      mmOverFlowOffset = 0
+      mmStopPosition = 0
+      mmLeading = 0
+    end
+  end
+  object ppDetailBand1: TppDetailBand
+    Save = True
+    Visible = False
+    mmBottomOffset = 0
+    mmHeight = 5292
+    mmPrintPosition = 0
+    object ppDBText2: TppDBText
+      UserName = 'DBText2'
+      SaveOrder = 0
+      Save = True
+      Border.BorderPositions = []
+      Border.Color = clBlack
+      Border.Style = psSolid
+      Border.Visible = False
+      Border.Weight = 1.000000000000000000
+      DataField = 'WeightingID'
+      DataPipeline = daADOQueryDataView1.processed_items
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = []
+      Transparent = True
+      DataPipelineName = 'processed_items'
+      mmHeight = 3969
+      mmLeft = 1852
+      mmTop = 529
+      mmWidth = 15610
+      BandType = 4
+    end
+    object ppDBText3: TppDBText
+      UserName = 'DBText3'
+      SaveOrder = 1
+      Save = True
+      Border.BorderPositions = []
+      Border.Color = clBlack
+      Border.Style = psSolid
+      Border.Visible = False
+      Border.Weight = 1.000000000000000000
+      DataField = 'WeightingName'
+      DataPipeline = daADOQueryDataView1.processed_items
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = []
+      Transparent = True
+      DataPipelineName = 'processed_items'
+      mmHeight = 3969
+      mmLeft = 27781
+      mmTop = 529
+      mmWidth = 78581
+      BandType = 4
+    end
+    object ppDBText5: TppDBText
+      UserName = 'DBText5'
+      SaveOrder = 2
+      Save = True
+      Border.BorderPositions = []
+      Border.Color = clBlack
+      Border.Style = psSolid
+      Border.Visible = False
+      Border.Weight = 1.000000000000000000
+      DataField = 'SUM_itemsprocessed_proces'
+      DataPipeline = daADOQueryDataView1.processed_items
+      DisplayFormat = '$#,0.00;-$#,0.00'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = []
+      TextAlignment = taRightJustified
+      Transparent = True
+      DataPipelineName = 'processed_items'
+      mmHeight = 3969
+      mmLeft = 146050
+      mmTop = 529
+      mmWidth = 17198
+      BandType = 4
+    end
+  end
+  object ppFooterBand1: TppFooterBand
+    mmBottomOffset = 0
+    mmHeight = 6615
+    mmPrintPosition = 0
+    object ppLine2: TppLine
+      UserName = 'Line2'
+      Border.BorderPositions = []
+      Border.Color = clBlack
+      Border.Style = psSolid
+      Border.Visible = False
+      Border.Weight = 1.000000000000000000
+      ParentWidth = True
+      Weight = 0.750000000000000000
+      mmHeight = 2117
+      mmLeft = 0
+      mmTop = 265
+      mmWidth = 179815
+      BandType = 8
+    end
+    object ppSystemVariable1: TppSystemVariable
+      UserName = 'SystemVariable1'
+      Border.BorderPositions = []
+      Border.Color = clBlack
+      Border.Style = psSolid
+      Border.Visible = False
+      Border.Weight = 1.000000000000000000
+      VarType = vtPrintDateTime
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 8
+      Font.Style = [fsItalic]
+      TextAlignment = taRightJustified
+      Transparent = True
+      mmHeight = 3175
+      mmLeft = 1852
+      mmTop = 1058
+      mmWidth = 24342
+      BandType = 8
+    end
+    object ppSystemVariable2: TppSystemVariable
+      UserName = 'SystemVariable2'
+      Border.BorderPositions = []
+      Border.Color = clBlack
+      Border.Style = psSolid
+      Border.Visible = False
+      Border.Weight = 1.000000000000000000
+      VarType = vtPageNoDesc
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = []
+      TextAlignment = taRightJustified
+      Transparent = True
+      mmHeight = 3969
+      mmLeft = 166688
+      mmTop = 1058
+      mmWidth = 11113
+      BandType = 8
+    end
+  end
+  object ppSummaryBand1: TppSummaryBand
+    mmBottomOffset = 0
+    mmHeight = 6615
+    mmPrintPosition = 0
+    object ppLine3: TppLine
+      UserName = 'Line3'
+      Border.BorderPositions = []
+      Border.Color = clBlack
+      Border.Style = psSolid
+      Border.Visible = False
+      Border.Weight = 1.000000000000000000
+      ParentWidth = True
+      Weight = 0.750000000000000000
+      mmHeight = 2117
+      mmLeft = 0
+      mmTop = 265
+      mmWidth = 179815
+      BandType = 7
+    end
+    object ppVariable5: TppVariable
+      UserName = 'Variable5'
+      Border.BorderPositions = []
+      Border.Color = clBlack
+      Border.Style = psSolid
+      Border.Visible = False
+      Border.Weight = 1.000000000000000000
+      BlankWhenZero = False
+      CalcOrder = 0
+      DataType = dtInteger
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 4233
+      mmLeft = 111654
+      mmTop = 1323
+      mmWidth = 15610
+      BandType = 7
+    end
+    object ppVariable6: TppVariable
+      UserName = 'Variable6'
+      Border.BorderPositions = []
+      Border.Color = clBlack
+      Border.Style = psSolid
+      Border.Visible = False
+      Border.Weight = 1.000000000000000000
+      BlankWhenZero = False
+      CalcOrder = 1
+      DataType = dtCurrency
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 10
+      Font.Style = [fsBold]
+      TextAlignment = taRightJustified
+      Transparent = True
+      mmHeight = 4233
+      mmLeft = 143404
+      mmTop = 1323
+      mmWidth = 19579
+      BandType = 7
+    end
+  end
+  object ppGroup1: TppGroup
+    BreakName = 'weightingid'
+    DataPipeline = daADOQueryDataView1.processed_items
+    KeepTogether = True
+    OutlineSettings.CreateNode = True
+    UserName = 'Group1'
+    mmNewColumnThreshold = 0
+    mmNewPageThreshold = 0
+    DataPipelineName = 'processed_items'
+    object ppGroupHeaderBand1: TppGroupHeaderBand
+      mmBottomOffset = 0
+      mmHeight = 0
+      mmPrintPosition = 0
+    end
+    object ppGroupFooterBand1: TppGroupFooterBand
+      mmBottomOffset = 0
+      mmHeight = 5292
+      mmPrintPosition = 0
+      object ppDBText6: TppDBText
+        UserName = 'DBText6'
+        SaveOrder = 0
+        Save = True
+        Border.BorderPositions = []
+        Border.Color = clBlack
+        Border.Style = psSolid
+        Border.Visible = False
+        Border.Weight = 1.000000000000000000
+        DataField = 'WeightingID'
+        DataPipeline = daADOQueryDataView1.processed_items
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 10
+        Font.Style = []
+        Transparent = True
+        DataPipelineName = 'processed_items'
+        mmHeight = 3969
+        mmLeft = 1588
+        mmTop = 794
+        mmWidth = 15610
+        BandType = 5
+        GroupNo = 0
+      end
+      object ppDBText7: TppDBText
+        UserName = 'DBText7'
+        SaveOrder = 1
+        Save = True
+        Border.BorderPositions = []
+        Border.Color = clBlack
+        Border.Style = psSolid
+        Border.Visible = False
+        Border.Weight = 1.000000000000000000
+        DataField = 'WeightingName'
+        DataPipeline = daADOQueryDataView1.processed_items
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 10
+        Font.Style = []
+        Transparent = True
+        DataPipelineName = 'processed_items'
+        mmHeight = 3969
+        mmLeft = 27781
+        mmTop = 794
+        mmWidth = 78581
+        BandType = 5
+        GroupNo = 0
+      end
+      object ppVariable3: TppVariable
+        UserName = 'Variable3'
+        Border.BorderPositions = []
+        Border.Color = clBlack
+        Border.Style = psSolid
+        Border.Visible = False
+        Border.Weight = 1.000000000000000000
+        BlankWhenZero = False
+        CalcOrder = 0
+        DataType = dtInteger
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 10
+        Font.Style = []
+        Transparent = True
+        mmHeight = 3969
+        mmLeft = 112713
+        mmTop = 794
+        mmWidth = 14817
+        BandType = 5
+        GroupNo = 0
+      end
+      object ppVariable4: TppVariable
+        UserName = 'Variable4'
+        Border.BorderPositions = []
+        Border.Color = clBlack
+        Border.Style = psSolid
+        Border.Visible = False
+        Border.Weight = 1.000000000000000000
+        BlankWhenZero = False
+        CalcOrder = 1
+        DataType = dtCurrency
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 10
+        Font.Style = []
+        TextAlignment = taRightJustified
+        Transparent = True
+        mmHeight = 3969
+        mmLeft = 145786
+        mmTop = 794
+        mmWidth = 17198
+        BandType = 5
+        GroupNo = 0
+      end
+      object ppVariable1: TppVariable
+        UserName = 'Variable1'
+        SaveOrder = 2
+        Save = True
+        Border.BorderPositions = []
+        Border.Color = clBlack
+        Border.Style = psSolid
+        Border.Visible = False
+        Border.Weight = 1.000000000000000000
+        BlankWhenZero = False
+        CalcOrder = 2
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 10
+        Font.Style = []
+        TextAlignment = taRightJustified
+        Transparent = True
+        mmHeight = 3969
+        mmLeft = 129646
+        mmTop = 794
+        mmWidth = 10848
+        BandType = 5
+        GroupNo = 0
+      end
+      object ppVariable2: TppVariable
+        UserName = 'Variable2'
+        SaveOrder = 3
+        Save = True
+        Border.BorderPositions = []
+        Border.Color = clBlack
+        Border.Style = psSolid
+        Border.Visible = False
+        Border.Weight = 1.000000000000000000
+        BlankWhenZero = False
+        CalcOrder = 3
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Name = 'Arial'
+        Font.Size = 10
+        Font.Style = []
+        TextAlignment = taRightJustified
+        Transparent = True
+        mmHeight = 3969
+        mmLeft = 164836
+        mmTop = 794
+        mmWidth = 12700
+        BandType = 5
+        GroupNo = 0
+      end
+    end
+  end
+  object raCodeModule1: TraCodeModule
+    ProgramStream = {
+      01060D54726156617250726F6772616D094368696C645479706502110B50726F
+      6772616D4E616D6506095661726961626C65730B50726F6772616D5479706507
+      0B747450726F63656475726506536F7572636506A270726F6365647572652056
+      61726961626C65733B0D0A7661720D0A202020546F74436F756E74203A20446F
+      75626C653B0D0A202020546F74436F7374203A20446F75626C653B0D0A202020
+      466972737450617373203A20426F6F6C65616E3B0D0A20202047726F7570436F
+      756E74203A20696E74656765723B0D0A20202047726F7570436F7374203A2064
+      6F75626C653B0D0A626567696E0D0A0D0A656E643B0D0A0001060F5472614576
+      656E7448616E646C65720B50726F6772616D4E616D6506115265706F72744F6E
+      5374617274506167650B50726F6772616D54797065070B747450726F63656475
+      726506536F75726365066770726F636564757265205265706F72744F6E537461
+      7274506167653B0D0A626567696E0D0A20202020202020205265706F72742E47
+      65744175746F5365617263684465736372697074696F6E4C696E6573284D656D
+      6F312E4C696E6573293B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65
+      06065265706F7274094576656E744E616D65060B4F6E53746172745061676507
+      4576656E74494402150001060F5472614576656E7448616E646C65720B50726F
+      6772616D4E616D6506165265706F72744F6E5374617274466972737450617373
+      0B50726F6772616D54797065070B747450726F63656475726506536F75726365
+      069570726F636564757265205265706F72744F6E537461727446697273745061
+      73733B0D0A626567696E0D0A202020466972737450617373203A3D2054727565
+      3B0D0A202020546F74436F7374203A3D20303B0D0A202020546F74436F756E74
+      203A3D20303B0D0A20202047726F7570436F756E74203A3D20303B0D0A202020
+      47726F7570436F7374203A3D20303B0D0A656E643B0D0A0D436F6D706F6E656E
+      744E616D6506065265706F7274094576656E744E616D6506104F6E5374617274
+      466972737450617373074576656E74494402140001060F5472614576656E7448
+      616E646C65720B50726F6772616D4E616D6506175265706F72744F6E53746172
+      745365636F6E64506173730B50726F6772616D54797065070B747450726F6365
+      6475726506536F75726365064970726F636564757265205265706F72744F6E53
+      746172745365636F6E64506173733B0D0A626567696E0D0A2020204669727374
+      50617373203A3D2046616C73653B0D0A656E643B0D0A0D436F6D706F6E656E74
+      4E616D6506065265706F7274094576656E744E616D6506114F6E537461727453
+      65636F6E6450617373074576656E74494402160001060F5472614576656E7448
+      616E646C65720B50726F6772616D4E616D65061044657461696C416674657250
+      72696E740B50726F6772616D54797065070B747450726F63656475726506536F
+      757263650C2E01000070726F6365647572652044657461696C41667465725072
+      696E743B0D0A626567696E0D0A2020205661726961626C65332E76616C756520
+      3A3D205661726961626C65332E56616C7565202B20313B0D0A20202056617269
+      61626C65342E56616C7565203A3D205661726961626C65342E56616C7565202B
+      2070726F6365737365645F6974656D735B2770726F63657373696E6720636F73
+      74275D3B200D0A202020696620666972737470617373207468656E0D0A202020
+      626567696E0D0A202020202020546F74436F756E74203A3D20546F74436F756E
+      74202B20313B0D0A202020202020546F74436F7374203A3D20546F74436F7374
+      202B2070726F6365737365645F6974656D735B2770726F63657373696E672063
+      6F7374275D3B0D0A202020656E643B0D0A656E643B0D0A0D436F6D706F6E656E
+      744E616D65060644657461696C094576656E744E616D65060A41667465725072
+      696E74074576656E74494402170001060F5472614576656E7448616E646C6572
+      0B50726F6772616D4E616D65061A47726F7570466F6F74657242616E64314166
+      7465725072696E740B50726F6772616D54797065070B747450726F6365647572
+      6506536F75726365066C70726F6365647572652047726F7570466F6F74657242
+      616E643141667465725072696E743B0D0A626567696E0D0A2020202020205661
+      726961626C65332E56616C7565203A3D20303B0D0A202020095661726961626C
+      65342E56616C7565203A3D20303B0D0A656E643B0D0A0D436F6D706F6E656E74
+      4E616D65061047726F7570466F6F74657242616E6431094576656E744E616D65
+      060A41667465725072696E74074576656E74494402170001060F547261457665
+      6E7448616E646C65720B50726F6772616D4E616D6506125661726961626C6531
+      4F6E476574546578740B50726F6772616D54797065070B747450726F63656475
+      726506536F75726365069C70726F636564757265205661726961626C65314F6E
+      476574546578742876617220546578743A20537472696E67293B0D0A62656769
+      6E0D0A202020696620466972737450617373203D2046616C7365207468656E0D
+      0A2020200954657874203A3D20466F726D6174466C6F617428272323302E3027
+      2C5661726961626C65332E56616C75652F546F74436F756E742A313030293B0D
+      0A656E643B0D0A0D436F6D706F6E656E744E616D6506095661726961626C6531
+      094576656E744E616D6506094F6E47657454657874074576656E744944023500
+      01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650612
+      5661726961626C65324F6E476574546578740B50726F6772616D54797065070B
+      747450726F63656475726506536F75726365069D70726F636564757265205661
+      726961626C65324F6E476574546578742876617220546578743A20537472696E
+      67293B0D0A626567696E0D0A202020696620466972737450617373203D204661
+      6C7365207468656E0D0A20202020202054657874203A3D20466F726D6174466C
+      6F617428272323302E30272C5661726961626C65342E56616C75652F546F7443
+      6F73742A313030293B0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506
+      095661726961626C6532094576656E744E616D6506094F6E4765745465787407
+      4576656E74494402350001060F5472614576656E7448616E646C65720B50726F
+      6772616D4E616D6506125661726961626C65354F6E476574546578740B50726F
+      6772616D54797065070B747450726F63656475726506536F7572636506677072
+      6F636564757265205661726961626C65354F6E47657454657874287661722054
+      6578743A20537472696E67293B0D0A626567696E0D0A20202054657874203A3D
+      20466F726D6174466C6F61742827232330272C546F74436F756E74293B0D0A65
+      6E643B0D0A0D436F6D706F6E656E744E616D6506095661726961626C65350945
+      76656E744E616D6506094F6E47657454657874074576656E7449440235000106
+      0F5472614576656E7448616E646C65720B50726F6772616D4E616D6506125661
+      726961626C65364F6E476574546578740B50726F6772616D54797065070B7474
+      50726F63656475726506536F75726365066870726F6365647572652056617269
+      61626C65364F6E476574546578742876617220546578743A20537472696E6729
+      3B0D0A626567696E0D0A20202054657874203A3D20466F726D6174466C6F6174
+      282724302E3030272C546F74436F7374293B0D0A656E643B0D0A0D436F6D706F
+      6E656E744E616D6506095661726961626C6536094576656E744E616D6506094F
+      6E47657454657874074576656E74494402350000}
+  end
+  object daDataModule1: TdaDataModule
+    object daADOQueryDataView1: TdaADOQueryDataView
+      UserName = 'Query_processed_items'
+      Height = 160
+      Left = 10
+      NameColumnWidth = 105
+      SizeColumnWidth = 35
+      SortMode = 0
+      Top = 10
+      TypeColumnWidth = 52
+      Width = 310
+      AutoSearchTabOrder = 0
+      object processed_items: TppChildDBPipeline
+        AutoCreateFields = False
+        UserName = 'processed_items'
+        object ppField1: TppField
+          FieldAlias = 'weighting'
+          FieldName = 'weightingid'
+          FieldLength = 0
+          DataType = dtInteger
+          DisplayWidth = 0
+          Position = 0
+          TableName = 'itemsprocessed'
+        end
+        object ppField2: TppField
+          FieldAlias = 'weighting name'
+          FieldName = 'weightingname'
+          FieldLength = 50
+          DisplayWidth = 50
+          Position = 1
+          TableName = 'itemsprocessed'
+        end
+        object ppField3: TppField
+          FieldAlias = 'processing cost'
+          FieldName = 'processcost'
+          FieldLength = 0
+          DataType = dtDouble
+          DisplayWidth = 0
+          Position = 2
+          TableName = 'itemsprocessed'
+        end
+      end
+      object daSQL1: TdaSQL
+        DatabaseName = 'adoSterilizing'
+        DatabaseType = dtSybaseASA
+        DataPipelineName = 'processed_items'
+        LinkColor = clMaroon
+        MaxSQLFieldAliasLength = 25
+        SQLText.Strings = (
+          'SELECT itemsprocessed.weightingid, '
+          '       itemsprocessed.weightingname, '
+          '       itemsprocessed.processcost'
+          'FROM itemsprocessed itemsprocessed'
+          'ORDER BY itemsprocessed.weightingid')
+        SQLType = sqSQL2
+        object daCriteria1: TdaCriteria
+          ChildType = 7
+          Level = 0
+          Operator = dacoBetween
+          object TdaField
+            Alias = 'process date'
+            AutoSearch = True
+            DataType = dtDate
+            DisplayWidth = 0
+            FieldAlias = 'process date'
+            FieldLength = 0
+            FieldName = 'pdate'
+            Mandatory = True
+            SQLFieldName = 'pdate'
+            TableAlias = 'processed items'
+            TableName = 'itemsprocessed'
+            TableSQLAlias = 'itemsprocessed'
+          end
+        end
+        object daCriteria2: TdaCriteria
+          ChildType = 7
+          Level = 0
+          object TdaField
+            Alias = 'location name'
+            AutoSearch = True
+            DisplayWidth = 50
+            FieldAlias = 'location name'
+            FieldLength = 50
+            FieldName = 'locationname'
+            ShowAllValues = True
+            SQLFieldName = 'locationname'
+            TableAlias = 'processed items'
+            TableName = 'itemsprocessed'
+            TableSQLAlias = 'itemsprocessed'
+          end
+        end
+        object daField1: TdaField
+          Alias = 'weighting'
+          DataType = dtInteger
+          DisplayWidth = 0
+          FieldAlias = 'weighting'
+          FieldLength = 0
+          FieldName = 'weightingid'
+          SQLFieldName = 'weightingid'
+          TableAlias = 'processed items'
+          TableName = 'itemsprocessed'
+          TableSQLAlias = 'itemsprocessed'
+        end
+        object daField2: TdaField
+          Alias = 'weighting name'
+          DisplayWidth = 50
+          FieldAlias = 'weighting name'
+          FieldLength = 50
+          FieldName = 'weightingname'
+          SQLFieldName = 'weightingname'
+          TableAlias = 'processed items'
+          TableName = 'itemsprocessed'
+          TableSQLAlias = 'itemsprocessed'
+        end
+        object daField3: TdaField
+          Alias = 'processing cost'
+          DataType = dtDouble
+          DisplayWidth = 0
+          FieldAlias = 'processing cost'
+          FieldLength = 0
+          FieldName = 'processcost'
+          SQLFieldName = 'processcost'
+          TableAlias = 'processed items'
+          TableName = 'itemsprocessed'
+          TableSQLAlias = 'itemsprocessed'
+        end
+        object daField4: TdaField
+          ChildType = 2
+          Alias = 'weighting'
+          DataType = dtInteger
+          DisplayWidth = 0
+          FieldAlias = 'weighting'
+          FieldLength = 0
+          FieldName = 'weightingid'
+          SQLFieldName = 'weightingid'
+          TableAlias = 'processed items'
+          TableName = 'itemsprocessed'
+          TableSQLAlias = 'itemsprocessed'
+        end
+        object daTable1: TdaTable
+          ChildType = 5
+          Alias = 'processed items'
+          JoinType = dajtNone
+          SQLAlias = 'itemsprocessed'
+          TableAlias = 'processed items'
+          TableName = 'itemsprocessed'
+        end
+      end
+    end
+    object daADOQueryDataView2: TdaADOQueryDataView
+      UserName = 'Query_system_information'
+      Height = 126
+      Left = 348
+      NameColumnWidth = 105
+      SizeColumnWidth = 35
+      SortMode = 0
+      Top = 10
+      TypeColumnWidth = 52
+      Width = 200
+      AutoSearchTabOrder = 0
+      object system_information: TppChildDBPipeline
+        AutoCreateFields = False
+        UserName = 'system_information'
+        object ppField1: TppField
+          FieldAlias = 'health service name'
+          FieldName = 'company'
+          FieldLength = 30
+          DisplayWidth = 30
+          Position = 0
+          Sortable = False
+          TableName = 'settings'
+        end
+        object ppField2: TppField
+          FieldAlias = 'department name'
+          FieldName = 'department'
+          FieldLength = 30
+          DisplayWidth = 30
+          Position = 1
+          TableName = 'settings'
+        end
+      end
+      object daSQL2: TdaSQL
+        CollationType = ctASCII
+        DatabaseName = 'adoSterilizing'
+        DatabaseType = dtSybaseASA
+        DataPipelineName = 'system_information'
+        IsCaseSensitive = True
+        LinkColor = clNavy
+        MaxSQLFieldAliasLength = 25
+        SQLText.Strings = (
+          'SELECT settings.company, settings.department'
+          'FROM settings settings')
+        SQLType = sqSQL2
+        object daField1: TdaField
+          Alias = 'health service name'
+          DisplayWidth = 30
+          FieldAlias = 'health service name'
+          FieldLength = 30
+          FieldName = 'company'
+          Sortable = False
+          SQLFieldName = 'company'
+          TableAlias = 'system information'
+          TableName = 'settings'
+          TableSQLAlias = 'settings'
+        end
+        object daField2: TdaField
+          Alias = 'department name'
+          DisplayWidth = 30
+          FieldAlias = 'department name'
+          FieldLength = 30
+          FieldName = 'department'
+          SQLFieldName = 'department'
+          TableAlias = 'system information'
+          TableName = 'settings'
+          TableSQLAlias = 'settings'
+        end
+        object daTable1: TdaTable
+          ChildType = 5
+          Alias = 'system information'
+          JoinType = dajtNone
+          SQLAlias = 'settings'
+          TableAlias = 'system information'
+          TableName = 'settings'
+        end
+      end
+    end
+  end
+  object ppParameterList1: TppParameterList
+  end
+end

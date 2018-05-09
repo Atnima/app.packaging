@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Product Id="*" UpgradeCode="cd3093a0-6c56-4d9c-9071-5fb0496b9e29" Version="1.0.0" Language="1033" Name="Web Shortcut - Carestream" Manufacturer="SVHA">
+        <Package InstallerVersion="300" Compressed="yes"/>
+        <Media Id="1" Cabinet="product.cab" EmbedCab="yes" />
+
+        <Property Id="ALLUSERS"><![CDATA[2]]></Property>
+
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="ProgramFilesFolder">
+                <Directory Id="dir_SVHA" Name="SVHA">
+                    <Directory Id="dir_webapps" Name="webapps" />
+                </Directory>
+            </Directory>
+            <!-- Step 1: Define the directory structure -->
+            <Directory Id="ProgramMenuFolder">
+                <Directory Id="dir_onlinesystems" Name="Online Systems"/>
+            </Directory>
+        </Directory>
+
+        <DirectoryRef Id="dir_webapps">
+            <Component Id="cmp_carestreamexe" Guid="*">
+                <File Id="fil_carestreamexe" Source="files\Carestream.exe" KeyPath="yes" Checksum="yes"/>
+            </Component>
+        </DirectoryRef>
+
+        <!-- Step 2: Add the shortcut to your installer package -->
+        <DirectoryRef Id="dir_onlinesystems">
+            <Component Id="cmp_carestreamshortcut" Guid="7f7d22ed-1625-4ecc-ac7c-a6f7f7aa86b4">
+                <Shortcut Id="sc_carestreamshortcut" 
+                    Name="Carestream" 
+                    Description="Carestream Web Shortcut"
+                    Target="[#fil_carestreamexe]"
+                    WorkingDirectory="dir_onlinesystems"/>
+           </Component>
+        </DirectoryRef>
+
+        <Feature Id="MainApplication" Title="Web Shortcut - Carestream" Level="1">
+            <ComponentRef Id="cmp_carestreamexe" />
+            <!-- Step 3: Tell WiX to install the shortcut -->
+            <ComponentRef Id="cmp_carestreamshortcut" />
+        </Feature>
+    </Product>
+</Wix>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
+     xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+
+    <Product Id="*" UpgradeCode="ebdc0811-2218-4c63-8ccb-01a779432baf" Version="1.0.0" Language="1033" Name="MaQs Wrapper" Manufacturer="SVHA">
+        <Package InstallerVersion="300" Compressed="yes"/>
+        <Media Id="1" Cabinet="product.cab" EmbedCab="yes" />
+
+        <Property Id="ALLUSERS"><![CDATA[2]]></Property>
+
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="ProgramFilesFolder">
+                <Directory Id="DYNAMIC" Name="MaQS" />
+            </Directory>
+            <Directory Id="ProgramMenuFolder">
+                <Directory Id="dir_MaQSStartMenu" Name="MaQS" />
+            </Directory>
+            <Directory Id="DesktopFolder" Name="Desktop" />
+        </Directory>
+        
+        <DirectoryRef Id="DYNAMIC">
+            <Component Id="cmp_FolderPermissions" Guid="34817690-1fe1-49e2-a376-51dd54efbc11">
+                <CreateFolder>
+                    <util:PermissionEx User="Users" GenericRead="yes" GenericExecute="yes" GenericWrite="yes" Delete="no" />
+                </CreateFolder>
+            </Component>
+        </DirectoryRef>
+
+        <DirectoryRef Id="dir_MaQSStartMenu">
+            <Component Id="cmp_maqsshortcut" Guid="c2364b69-e18c-4ebf-9cc3-c0b1205c070b">
+                <Shortcut Id="sc_maqsshortcut" 
+                    Name="MaQS Launcher" 
+                    Description="MaQS Launcher"
+                    Target="[#fil348A104CC7803AF1E44ED5CBFEBE211F]"
+                    WorkingDirectory="dir_onlinesystems"/>
+           </Component>
+        </DirectoryRef>
+
+        <Feature Id="MainApplication" Title="MaQS Wrapper" Level="1">
+            <ComponentGroupRef Id="maqsfiles" />
+            <ComponentRef Id="cmp_maqsshortcut" />
+            <ComponentRef Id="cmp_FolderPermissions" />
+        </Feature>
+    </Product>
+</Wix>

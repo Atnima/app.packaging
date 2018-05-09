@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Product Id="*" UpgradeCode="2277fd13-fa35-48de-a216-e17022c0e2c1" Version="1.0.0" Language="1033" Name="Web Shortcut - MedWay" Manufacturer="SVHA">
+        <Package InstallerVersion="300" Compressed="yes"/>
+        <Media Id="1" Cabinet="product.cab" EmbedCab="yes" />
+
+        <Property Id="ALLUSERS"><![CDATA[2]]></Property>
+
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="ProgramFilesFolder">
+                <Directory Id="dir_SVHA" Name="SVHA">
+                    <Directory Id="dir_webapps" Name="webapps" />
+                </Directory>
+            </Directory>
+            <!-- Step 1: Define the directory structure -->
+            <Directory Id="ProgramMenuFolder">
+                <Directory Id="dir_onlinesystems" Name="Online Systems"/>
+            </Directory>
+        </Directory>
+
+        <DirectoryRef Id="dir_webapps">
+            <Component Id="cmp_medwayexe" Guid="*">
+                <File Id="fil_medwayexe" Source="files\MedWay.exe" KeyPath="yes" Checksum="yes"/>
+            </Component>
+        </DirectoryRef>
+
+        <!-- Step 2: Add the shortcut to your installer package -->
+        <DirectoryRef Id="dir_onlinesystems">
+            <Component Id="cmp_medwayshortcut" Guid="185fe575-bbe2-4003-a8c8-dc31416934ae">
+                <Shortcut Id="sc_medwayshortcut" 
+                     Name="MedWay" 
+                   Description="MedWay Web Shortcut"
+                    Target="[#fil_medwayexe]"
+                          WorkingDirectory="dir_onlinesystems"/>
+           </Component>
+        </DirectoryRef>
+
+        <Feature Id="MainApplication" Title="Web Shortcut - MedWay" Level="1">
+            <ComponentRef Id="cmp_medwayexe" />
+            <!-- Step 3: Tell WiX to install the shortcut -->
+            <ComponentRef Id="cmp_medwayshortcut" />
+        </Feature>
+    </Product>
+</Wix>

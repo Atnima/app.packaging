@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="dir_work">
+            <Directory Id="dir52A3ECD949731F5B40831100998580E2" Name="shh">
+                <Component Id="cmp8332066D6C8C061758353E1BC2E61EEA" Guid="{80A82B2A-04A9-415E-83C7-7C16BE5AE4FD}">
+                    <File Id="filF94FF3AB91432B97856CB965FC15578E" KeyPath="yes" Source="SourceDir\shh\cbodbms.ini" />
+                </Component>
+                <Component Id="cmp27236FFC30D3A6B19F30BFC34D3D168B" Guid="{5A27AF2B-7068-485E-A2E3-E429C6A26ECB}">
+                    <File Id="fil489253381D4B625032996F5C16BC5A86" KeyPath="yes" Source="SourceDir\shh\CBORD.INI" />
+                </Component>
+                <Component Id="cmpCB9C913EEBA54E084F0352541D319D26" Guid="{9C58948A-B382-40DE-8911-8A33B57EF085}">
+                    <File Id="filDC300766ABDCA730A75FB5FE7245C897" KeyPath="yes" Source="SourceDir\shh\NSS.INI" />
+                </Component>
+                <Component Id="cmpAAEA51D2AF80343708A57F648BCE82F9" Guid="{B752593E-6818-4598-91CC-95B2291A8862}">
+                    <File Id="fil04C28E723190A22DE70DA32DE619045C" KeyPath="yes" Source="SourceDir\shh\shh_fms.bat" />
+                </Component>
+                <Component Id="cmp3BD2D0CBE7763441651C4771BC3A31E1" Guid="{E9B78CE2-0C47-4817-9BC1-80E1EFCFCF46}">
+                    <File Id="filAAE7B842A9F3D5C7655A77D587F64D36" KeyPath="yes" Source="SourceDir\shh\shh_fms.lnk" />
+                </Component>
+            </Directory>
+            <Directory Id="dir8124DF3335FEA059480EB1300C27E283" Name="sjh">
+                <Component Id="cmp9AA7AD95E9428C4CC34ACDDF2AAE3415" Guid="{27CDE230-6C2F-44D2-BD5C-393A15F4323C}">
+                    <File Id="filCF99B553FDB5EF7039292040AB20554C" KeyPath="yes" Source="SourceDir\sjh\cbodbms.ini" />
+                </Component>
+                <Component Id="cmp6AF5A48AF5B158EDB4A18073FFDF1E74" Guid="{7E692DEA-C676-4710-BC51-5D0527D37B22}">
+                    <File Id="fil98B75DB2A17E5809726F4A924604C039" KeyPath="yes" Source="SourceDir\sjh\CBORD.INI" />
+                </Component>
+                <Component Id="cmp46B4DF299AE4BD365047CD049C887C2C" Guid="{C4DCA88A-656B-4C1A-8D60-1348E9F1A3C7}">
+                    <File Id="filA0A82C8F56495DC36B8914603ED567D7" KeyPath="yes" Source="SourceDir\sjh\NSS.INI" />
+                </Component>
+                <Component Id="cmpE46F3CBFF582C334DAB32B181E461665" Guid="{C583DF22-3657-43CB-92D0-D471403F2B54}">
+                    <File Id="fil4B89398BFBCFCC2424CE83183866AE67" KeyPath="yes" Source="SourceDir\sjh\sjh_fms.bat" />
+                </Component>
+                <Component Id="cmp01CEDCCC398AD95A15F6F85319CD3101" Guid="{05962179-0865-4D28-B0C2-BFE201B064D8}">
+                    <File Id="filE2CCA3E37E2D5DD715F73F2E7A44901A" KeyPath="yes" Source="SourceDir\sjh\sjh_fms.lnk" />
+                </Component>
+            </Directory>
+            <Directory Id="dirA49E355CD7F3353ECD58DD27B151953A" Name="svh">
+                <Component Id="cmp47817D0CC0E95146C3E290BE33625CCF" Guid="{740CA2BE-3455-43FC-A3FB-59D5668CA34D}">
+                    <File Id="filE7CDA55E24A1581E78E2448A484EC541" KeyPath="yes" Source="SourceDir\svh\cbodbms.ini" />
+                </Component>
+                <Component Id="cmp9E4B6C741435A982E494E0AA28ABC061" Guid="{F20D0AD6-DC63-4880-93D4-17D96935A360}">
+                    <File Id="filFE22CF6900772A89BF29D907DC9476BC" KeyPath="yes" Source="SourceDir\svh\CBORD.INI" />
+                </Component>
+                <Component Id="cmp6B1CCA4F0C1E6E6D93189BFBED098F7D" Guid="{ED8D7FF0-D3A9-4F15-B0B1-06005EE885D7}">
+                    <File Id="fil44F43708234581F354D7D85AFBF213DD" KeyPath="yes" Source="SourceDir\svh\NSS.INI" />
+                </Component>
+                <Component Id="cmp11895D11AB2006B20E48E1CA4F5518D0" Guid="{216FFD3E-401F-4E9F-9549-1DACE071B753}">
+                    <File Id="filC597D344E7D9C44CF96E3DC8E3A1F1E7" KeyPath="yes" Source="SourceDir\svh\svh_fms.bat" />
+                </Component>
+                <Component Id="cmp4AD65E084AC51E32877FAA9462853A68" Guid="{5C2E5F45-7785-4194-A41D-4EB1E88B6321}">
+                    <File Id="fil07E0312682480DE1AB99DF7667CF7A7A" KeyPath="yes" Source="SourceDir\svh\svh_fms.lnk" />
+                </Component>
+            </Directory>
+            <Directory Id="dir1607121F4BE0AC4DED7CE6ED6936016C" Name="svpchg">
+                <Component Id="cmp7B98D5A4E6BE2F7468F4BDD07C8F34D8" Guid="{2ECD2575-EA6E-4029-85E2-AEBE81174119}">
+                    <File Id="filB2DC7BC4303F6AC999556406376BB792" KeyPath="yes" Source="SourceDir\svpchg\CBORD 11 - SVPCHG.lnk" />
+                </Component>
+                <Component Id="cmpD4EF4FB597A57F387ADDF0023E282A42" Guid="{A83CC2E2-A2D2-43B9-AB00-4966B4060297}">
+                    <File Id="filBB50E4A70E513D23221EDF02398E6838" KeyPath="yes" Source="SourceDir\svpchg\svpchg_cbodbms.ini" />
+                </Component>
+                <Component Id="cmp09587BB95606DE66E93B5DE65834878C" Guid="{4CC36019-9F4B-489D-BA2E-3724947DEFCA}">
+                    <File Id="fil32AC7BAD51931B0E294A25A9DC9B3F99" KeyPath="yes" Source="SourceDir\svpchg\svpchg_CBORD.INI" />
+                </Component>
+                <Component Id="cmp53E30CAD653FBE8E7A2A9E5178E1E62A" Guid="{2A9FD848-9CC1-4C82-8B28-47938CCCD72E}">
+                    <File Id="filE4B509E2D54C3DF3800176C9527F5B55" KeyPath="yes" Source="SourceDir\svpchg\svpchg_fms.bat" />
+                </Component>
+                <Component Id="cmp6C05B4A2885718B5970064903BD821D7" Guid="{51B81C3E-CD7E-45AF-961D-4BCD5E4B5F89}">
+                    <File Id="filD3CC7BA0CA4311BB846461216A656CBC" KeyPath="yes" Source="SourceDir\svpchg\svpchg_NSS.INI" />
+                </Component>
+            </Directory>
+            <Directory Id="dir23472CC8534FA7A5E4703C95AE819081" Name="svph">
+                <Component Id="cmp70A514458A0A2EA25D4CF8DA2D191243" Guid="{849AE21C-11BE-4623-AE27-BFFEB5377B48}">
+                    <File Id="fil3B0E764C037E7B1E1FE51A9828BD3FF6" KeyPath="yes" Source="SourceDir\svph\cbodbms.ini" />
+                </Component>
+                <Component Id="cmpA78697EB6FDE5D25B8188042918788BD" Guid="{E51E5DCE-5793-499F-B53B-025022DC51DD}">
+                    <File Id="fil141F4DE884867070925B9A078FC6E810" KeyPath="yes" Source="SourceDir\svph\CBORD.INI" />
+                </Component>
+                <Component Id="cmp12C2F318A95EE0F6220D6FD483D17384" Guid="{39CC99D6-92C8-4622-81EC-7F11AC1544A1}">
+                    <File Id="fil76B6FD5889FD03DD8E3DF4B6AF0BEDCA" KeyPath="yes" Source="SourceDir\svph\NSS.INI" />
+                </Component>
+                <Component Id="cmpCFA94F1D318EA0E0FE573A7399DAF547" Guid="{4277CF36-BE6C-4D84-8EEB-8E27C73024C0}">
+                    <File Id="fil5F84139BACA21127C28453B07E58A4F9" KeyPath="yes" Source="SourceDir\svph\nssuser1.ini" />
+                </Component>
+                <Component Id="cmp8D6248E4B7AED65E95D0A041450B42EF" Guid="{6ACF4A2C-5D41-4B2D-9D7E-02843CE76CDA}">
+                    <File Id="fil228C42D594B9E0B887A5A88BB8B54ECC" KeyPath="yes" Source="SourceDir\svph\svph_fms.bat" />
+                </Component>
+                <Component Id="cmp3D2A83DB960CFA0F3E14B1CB8CA499F2" Guid="{D472510D-B6D9-433C-B990-5525C93C1490}">
+                    <File Id="filD18937265D34BF37396D8C8E86C1EA01" KeyPath="yes" Source="SourceDir\svph\svph_fms.lnk" />
+                </Component>
+            </Directory>
+            <Directory Id="dir46CD83A6E0D67FBCAE60C5DD091F6248" Name="tmh">
+                <Component Id="cmpAE647D548198EC318E1BB49D022A5E72" Guid="{0BE90D1E-5D0A-4FDA-A6E0-C09300260D51}">
+                    <File Id="filE0B214BCA6A38F8191E3369994C371BD" KeyPath="yes" Source="SourceDir\tmh\cbodbms.ini" />
+                </Component>
+                <Component Id="cmp9044E7D19B5C5A696A4F1A3E3D804C94" Guid="{4A669971-CFEC-48F1-B549-5E2B4785C303}">
+                    <File Id="fil8C29A7F648507E44C7A80784F30C4F35" KeyPath="yes" Source="SourceDir\tmh\CBORD.INI" />
+                </Component>
+                <Component Id="cmp5C932535241A5E9EBB56AF03C393A41C" Guid="{C9BC3F7B-C198-4582-B031-6584F5911E66}">
+                    <File Id="filA2D554FFCB3191EC5EA29A414C8B8E4E" KeyPath="yes" Source="SourceDir\tmh\NSS.INI" />
+                </Component>
+                <Component Id="cmp0953F26E96858E1A01B03EF883972E23" Guid="{4A30E446-3FB0-46F8-8A26-1D1C15AB2090}">
+                    <File Id="fil1225B2CD17B015C0970A4054FEEA94BE" KeyPath="yes" Source="SourceDir\tmh\tmh_fms.bat" />
+                </Component>
+                <Component Id="cmp48AF76A99ACC635A3358B9894581E12D" Guid="{4B5304CF-BF67-469E-BBE2-68F7DB30A3E8}">
+                    <File Id="fil72E381F5ABCA4FD7535D5E6EE56D7CFA" KeyPath="yes" Source="SourceDir\tmh\tmh_fms.lnk" />
+                </Component>
+            </Directory>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="cbordcustomisationfiles">
+            <ComponentRef Id="cmp8332066D6C8C061758353E1BC2E61EEA" />
+            <ComponentRef Id="cmp27236FFC30D3A6B19F30BFC34D3D168B" />
+            <ComponentRef Id="cmpCB9C913EEBA54E084F0352541D319D26" />
+            <ComponentRef Id="cmpAAEA51D2AF80343708A57F648BCE82F9" />
+            <ComponentRef Id="cmp3BD2D0CBE7763441651C4771BC3A31E1" />
+            <ComponentRef Id="cmp9AA7AD95E9428C4CC34ACDDF2AAE3415" />
+            <ComponentRef Id="cmp6AF5A48AF5B158EDB4A18073FFDF1E74" />
+            <ComponentRef Id="cmp46B4DF299AE4BD365047CD049C887C2C" />
+            <ComponentRef Id="cmpE46F3CBFF582C334DAB32B181E461665" />
+            <ComponentRef Id="cmp01CEDCCC398AD95A15F6F85319CD3101" />
+            <ComponentRef Id="cmp47817D0CC0E95146C3E290BE33625CCF" />
+            <ComponentRef Id="cmp9E4B6C741435A982E494E0AA28ABC061" />
+            <ComponentRef Id="cmp6B1CCA4F0C1E6E6D93189BFBED098F7D" />
+            <ComponentRef Id="cmp11895D11AB2006B20E48E1CA4F5518D0" />
+            <ComponentRef Id="cmp4AD65E084AC51E32877FAA9462853A68" />
+            <ComponentRef Id="cmp7B98D5A4E6BE2F7468F4BDD07C8F34D8" />
+            <ComponentRef Id="cmpD4EF4FB597A57F387ADDF0023E282A42" />
+            <ComponentRef Id="cmp09587BB95606DE66E93B5DE65834878C" />
+            <ComponentRef Id="cmp53E30CAD653FBE8E7A2A9E5178E1E62A" />
+            <ComponentRef Id="cmp6C05B4A2885718B5970064903BD821D7" />
+            <ComponentRef Id="cmp70A514458A0A2EA25D4CF8DA2D191243" />
+            <ComponentRef Id="cmpA78697EB6FDE5D25B8188042918788BD" />
+            <ComponentRef Id="cmp12C2F318A95EE0F6220D6FD483D17384" />
+            <ComponentRef Id="cmpCFA94F1D318EA0E0FE573A7399DAF547" />
+            <ComponentRef Id="cmp8D6248E4B7AED65E95D0A041450B42EF" />
+            <ComponentRef Id="cmp3D2A83DB960CFA0F3E14B1CB8CA499F2" />
+            <ComponentRef Id="cmpAE647D548198EC318E1BB49D022A5E72" />
+            <ComponentRef Id="cmp9044E7D19B5C5A696A4F1A3E3D804C94" />
+            <ComponentRef Id="cmp5C932535241A5E9EBB56AF03C393A41C" />
+            <ComponentRef Id="cmp0953F26E96858E1A01B03EF883972E23" />
+            <ComponentRef Id="cmp48AF76A99ACC635A3358B9894581E12D" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>

@@ -1,0 +1,147 @@
+Error Time Stamp: 06:53 am on 04/02/09
+Error Message: [ASTA SERVER ERROR]String or binary data would be truncated
+Error Time Stamp: 08:47 am on 04/09/09
+Error Message: [ASTA SERVER ERROR]String or binary data would be truncated
+Error Time Stamp: 11:30 am on 08/05/09
+Error Message: [ASTA SERVER ERROR]String or binary data would be truncated
+Error Time Stamp: 11:31 am on 08/05/09
+Error Message: [ASTA SERVER ERROR]String or binary data would be truncated
+Error Time Stamp: 07:53 am on 04/07/10
+Error Message: [ASTA SERVER ERROR]String or binary data would be truncated
+Error Time Stamp: 12:22 pm on 04/19/10
+Error Message: [ASTA SERVER ERROR]String or binary data would be truncated
+Error Time Stamp: 12:23 pm on 04/19/10
+Error Message: [ASTA SERVER ERROR]String or binary data would be truncated
+Error Time Stamp: 02:48 pm on 06/29/10
+Error Message: [ASTA SERVER ERROR]String or binary data would be truncated
+MAQS - Decontamination - Error Time Stamp: 07:16 am on 04/04/14
+Error Message: Error in sp_AddChecked: [ASTA SERVER ERROR]Violation of PRIMARY KEY constraint 'pk_checked'. Cannot insert duplicate key in object 'dbo.checked'. The duplicate key value is (201404000041)
+MAQS - Decontamination - Error Time Stamp: 07:16 am on 04/04/14
+Error Message: Error Proceed Steriliser Item: [ASTA SERVER ERROR]Violation of PRIMARY KEY constraint 'PK__itemowner__05D8E0BE'. Cannot insert duplicate key in object 'dbo.itemowner'. The duplicate key value is (61135-1878583, 201404000041)
+Error Time Stamp: 09:49 am on 07/24/14
+Error Message: [ASTA] Transaction Failed! 
+[ASTA SERVER ERROR]Violation of PRIMARY KEY constraint 'PK__pack_template__0D7A0286'. Cannot insert duplicate key in object 'dbo.pack_template'. The duplicate key value is (52525_T)
+Error Time Stamp: 09:50 am on 07/24/14
+Error Message: [ASTA] Transaction Failed! [ASTA SERVER ERROR]Violation of PRIMARY KEY constraint 'PK__pack_template__0D7A0286'. Cannot insert duplicate key in object 'dbo.pack_template'. The duplicate key value is (52525_T)
+MAQS - Decontamination - Error Time Stamp: 07:23 am on 02/23/15
+Error Message: Error in sp_AddChecked: [ASTA SERVER ERROR]Violation of PRIMARY KEY constraint 'pk_checked'. Cannot insert duplicate key in object 'dbo.checked'. The duplicate key value is (201502032539)
+MAQS - Decontamination - Error Time Stamp: 07:23 am on 02/23/15
+Error Message: Error Proceed Steriliser Item: [ASTA SERVER ERROR]Violation of PRIMARY KEY constraint 'PK__itemowner__05D8E0BE'. Cannot insert duplicate key in object 'dbo.itemowner'. The duplicate key value is (61135-SN3901010, 201502032539)
+MAQS - Packing - Error Time Stamp: 11:31 am on 24/03/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201603036326)
+MAQS - Packing - Error Time Stamp: 08:34 am on 07/04/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201604008956)
+MAQS - Packing - Error Time Stamp: 07:06 pm on 12/04/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201604016121)
+MAQS - Packing - Error Time Stamp: 01:16 pm on 02/05/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201605000685)
+MAQS - Packing - Error Time Stamp: 10:47 am on 06/05/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201605008064)
+MAQS - Packing - Error Time Stamp: 11:28 am on 12/05/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201605016130)
+MAQS - Packing - Error Time Stamp: 01:51 pm on 02/06/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201606002788)
+MAQS - Packing - Error Time Stamp: 06:42 pm on 02/06/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201606004556)
+MAQS - Packing - Error Time Stamp: 12:46 pm on 28/06/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201606038091)
+MAQS - Packing - Error Time Stamp: 01:49 pm on 01/08/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201608000701)
+MAQS - Packing - Error Time Stamp: 05:30 pm on 03/08/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201608005677)
+MAQS - Packing - Error Time Stamp: 05:39 pm on 03/08/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201608005734)
+MAQS - Packing - Error Time Stamp: 04:22 pm on 15/09/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201609020109)
+MAQS - Packing - Error Time Stamp: 04:13 pm on 04/10/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201610001288)
+MAQS - Packing - Error Time Stamp: 07:55 pm on 04/10/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201610001845)
+MAQS - Packing - Error Time Stamp: 07:45 pm on 18/10/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201610020514)
+MAQS - Packing - Error Time Stamp: 08:48 pm on 01/11/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201611001922)
+MAQS - Packing - Error Time Stamp: 05:19 pm on 09/11/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201611013534)
+MAQS - Packing - Error Time Stamp: 08:34 pm on 25/11/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201611037880)
+MAQS - Quality Activity - Error Time Stamp: 06:33 am on 28/11/16
+Error Message: Error in update washing: Incorrect syntax near '='
+MAQS - Quality Activity - Error Time Stamp: 06:34 am on 28/11/16
+Error Message: Error in update washing: Incorrect syntax near '='
+MAQS - Quality Activity - Error Time Stamp: 07:13 am on 28/11/16
+Error Message: Error in update washing: Incorrect syntax near '='
+MAQS - Packing - Error Time Stamp: 08:39 pm on 06/12/16
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201612008323)
+MAQS - Quality Activity - Error Time Stamp: 06:32 am on 16/12/16
+Error Message: Error in update washing: Incorrect syntax near '='
+MAQS - Quality Activity - Error Time Stamp: 06:33 am on 16/12/16
+Error Message: Error in update washing: Incorrect syntax near '='
+MAQS - Quality Activity - Error Time Stamp: 06:39 am on 27/01/17
+Error Message: Error in update washing: Incorrect syntax near '='
+MAQS - Packing - Error Time Stamp: 03:32 pm on 27/01/17
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201701021882)
+MAQS - Quality Activity - Error Time Stamp: 06:30 am on 07/02/17
+Error Message: Error in update washing: Incorrect syntax near '='
+MAQS - Quality Activity - Error Time Stamp: 06:32 am on 07/02/17
+Error Message: Error in update washing: Incorrect syntax near '='
+MAQS - Quality Activity - Error Time Stamp: 06:29 am on 20/02/17
+Error Message: Error in update washing: Incorrect syntax near '='
+MAQS - Quality Activity - Error Time Stamp: 06:30 am on 20/02/17
+Error Message: Error in update washing: Incorrect syntax near '='
+MAQS - Packing - Error Time Stamp: 11:36 am on 01/03/17
+Error Message: Error - CreateProcessedRecords: Violation of PRIMARY KEY constraint 'pk_processed'. Cannot insert duplicate key in object 'dbo.processed'. The duplicate key value is (201703000348)
+MAQS - Patient Allocation - Error Time Stamp: 12:12 pm on 04/12/17
+Error Message: Error in Used: String or binary data would be truncated
+insert into used(
+ useddate, usedtime, usedopid, patientid, episode, serialno, usedfrom,
+ provider_ref, code_id, PatientProcedureHeaderID)
+ values (
+'2017-12-04'
+,'12:12:03 PM'
+,'OR2'
+,'60498-SN122H5B20171103514'
+,''
+,'201712000679'
+,'SP372'
+,''
+,''
+,334243
+)
+
+MAQS - Patient Allocation - Error Time Stamp: 12:12 pm on 04/12/17
+Error Message: Error in Used: String or binary data would be truncated
+insert into used(
+ useddate, usedtime, usedopid, patientid, episode, serialno, usedfrom,
+ provider_ref, code_id, PatientProcedureHeaderID)
+ values (
+'2017-12-04'
+,'12:12:04 PM'
+,'OR2'
+,'60498-SN122H5B20171103514'
+,''
+,'201711043999'
+,'SP372'
+,''
+,''
+,334243
+)
+
+MAQS - Patient Allocation - Error Time Stamp: 12:12 pm on 04/12/17
+Error Message: Error in Used: String or binary data would be truncated
+insert into used(
+ useddate, usedtime, usedopid, patientid, episode, serialno, usedfrom,
+ provider_ref, code_id, PatientProcedureHeaderID)
+ values (
+'2017-12-04'
+,'12:12:06 PM'
+,'OR2'
+,'60498-SN122H5B20171103514'
+,''
+,'201711035149'
+,'SP372'
+,''
+,''
+,334243
+)
+
